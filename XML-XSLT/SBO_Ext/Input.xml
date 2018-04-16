@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOM>
+  <BO>
+    <AdmInfo>
+      <Object>13</Object>
+    </AdmInfo>
+    <OINV>
+      <row>
+        <DocEntry>557934</DocEntry>
+        <DocNum>2419530</DocNum>
+        <DocType>I</DocType>
+        <CANCELED>N</CANCELED>
+        <Handwrtten>N</Handwrtten>
+        <Printed>N</Printed>
+        <DocStatus>O</DocStatus>
+        <InvntSttus>O</InvntSttus>
+        <Transfered>N</Transfered>
+        <ObjType>13</ObjType>
+        <DocDate>20180409</DocDate>
+        <DocDueDate>20180409</DocDueDate>
+        <CardCode>I999999</CardCode>
+        <CardName>Marit Polman</CardName>
+        <Address>test<br/>test<br/> 1234<br/>IRELAND</Address>
+        <NumAtCard>TEST MP 06-04-2018/6</NumAtCard>
+        <VatPercent>0.000000</VatPercent>
+        <VatSum>40.490000</VatSum>
+        <VatSumFC>0.000000</VatSumFC>
+        <DiscPrcnt>0.000000</DiscPrcnt>
+        <DiscSum>0.000000</DiscSum>
+        <DiscSumFC>0.000000</DiscSumFC>
+        <DocCur>EUR</DocCur>
+        <DocRate>1.000000</DocRate>
+        <DocTotal>242.930000</DocTotal>
+        <DocTotalFC>0.000000</DocTotalFC>
+        <PaidToDate>0.000000</PaidToDate>
+        <PaidFC>0.000000</PaidFC>
+        <GrosProfit>91.440000</GrosProfit>
+        <GrosProfFC>0.000000</GrosProfFC>
+        <Ref1>2419530</Ref1>
+        <Ref2 nil="true"/>
+        <Comments>Based on Sales Orders 2113023. Based on Purchase Orders 56610.</Comments>
+        <JrnlMemo>Goods Receipt PO - SZOE001</JrnlMemo>
+        <TransId>1965438</TransId>
+        <ReceiptNum nil="true">0</ReceiptNum>
+        <GroupNum>5</GroupNum>
+        <DocTime>821</DocTime>
+        <SlpCode>1</SlpCode>
+        <TrnspCode>-1</TrnspCode>
+        <PartSupply>Y</PartSupply>
+        <Confirmed>Y</Confirmed>
+        <GrossBase>-5</GrossBase>
+        <ImportEnt nil="true">0</ImportEnt>
+        <CreateTran>Y</CreateTran>
+        <SummryType>N</SummryType>
+        <UpdInvnt>I</UpdInvnt>
+        <UpdCardBal>B</UpdCardBal>
+        <Instance>0</Instance>
+        <Flags>0</Flags>
+        <InvntDirec>X</InvntDirec>
+        <CntctCode>99919</CntctCode>
+        <ShowSCN>N</ShowSCN>
+        <FatherCard nil="true"/>
+        <SysRate>1.000000</SysRate>
+        <CurSource>L</CurSource>
+        <VatSumSy>40.490000</VatSumSy>
+        <DiscSumSy>0.000000</DiscSumSy>
+        <DocTotalSy>242.930000</DocTotalSy>
+        <PaidSys>0.000000</PaidSys>
+        <FatherType>P</FatherType>
+        <GrosProfSy>91.440000</GrosProfSy>
+        <UpdateDate>20180412</UpdateDate>
+        <IsICT>N</IsICT>
+        <CreateDate>20180409</CreateDate>
+        <Volume>0.000000</Volume>
+        <VolUnit>4</VolUnit>
+        <Weight>0.000000</Weight>
+        <WeightUnit>2</WeightUnit>
+        <Series>65</Series>
+        <TaxDate>20180409</TaxDate>
+        <Filler nil="true"/>
+        <DataSource>O</DataSource>
+        <StampNum nil="true"/>
+        <isCrin>N</isCrin>
+        <FinncPriod>148</FinncPriod>
+        <UserSign>1</UserSign>
+        <selfInv>N</selfInv>
+        <VatPaid>0.000000</VatPaid>
+        <VatPaidFC>0.000000</VatPaidFC>
+        <VatPaidSys>0.000000</VatPaidSys>
+        <UserSign2>1</UserSign2>
+        <WddStatus>-</WddStatus>
+        <draftKey nil="true">0</draftKey>
+        <TotalExpns>0.000000</TotalExpns>
+        <TotalExpFC>0.000000</TotalExpFC>
+        <TotalExpSC>0.000000</TotalExpSC>
+        <DunnLevel nil="true">0</DunnLevel>
+        <Address2>test<br/>test<br/> 1234<br/>IRELAND</Address2>
+        <LogInstanc>0</LogInstanc>
+        <Exported>N</Exported>
+        <StationID>527</StationID>
+        <Indicator nil="true"/>
+        <NetProc>N</NetProc>
+        <AqcsTax>0.000000</AqcsTax>
+        <AqcsTaxFC>0.000000</AqcsTaxFC>
+        <AqcsTaxSC>0.000000</AqcsTaxSC>
+        <CashDiscPr>0.000000</CashDiscPr>
+        <CashDiscnt>0.000000</CashDiscnt>
+        <CashDiscFC>0.000000</CashDiscFC>
+        <CashDiscSC>0.000000</CashDiscSC>
+        <ShipToCode>billaddress</ShipToCode>
+        <LicTradNum>NLTESTNumber</LicTradNum>
+        <PaymentRef nil="true"/>
+        <WTSum>0.000000</WTSum>
+        <WTSumFC>0.000000</WTSumFC>
+        <WTSumSC>0.000000</WTSumSC>
+        <RoundDif>0.000000</RoundDif>
+        <RoundDifFC>0.000000</RoundDifFC>
+        <RoundDifSy>0.000000</RoundDifSy>
+        <CheckDigit nil="true"/>
+        <Form1099 nil="true">0</Form1099>
+        <Box1099 nil="true"/>
+        <submitted>N</submitted>
+        <PoPrss>N</PoPrss>
+        <Rounding>N</Rounding>
+        <RevisionPo>N</RevisionPo>
+        <Segment>0</Segment>
+        <ReqDate nil="true"/>
+        <CancelDate nil="true"/>
+        <PickStatus>N</PickStatus>
+        <Pick>N</Pick>
+        <BlockDunn>N</BlockDunn>
+        <PeyMethod/>
+        <PayBlock>N</PayBlock>
+        <PayBlckRef nil="true">0</PayBlckRef>
+        <MaxDscn>N</MaxDscn>
+        <Reserve>N</Reserve>
+        <Max1099>242.930000</Max1099>
+        <CntrlBnk nil="true"/>
+        <PickRmrk/>
+        <ISRCodLine nil="true"/>
+        <ExpAppl>0.000000</ExpAppl>
+        <ExpApplFC>0.000000</ExpApplFC>
+        <ExpApplSC>0.000000</ExpApplSC>
+        <Project nil="true"/>
+        <DeferrTax>N</DeferrTax>
+        <LetterNum nil="true"/>
+        <FromDate nil="true"/>
+        <ToDate nil="true"/>
+        <WTApplied>0.000000</WTApplied>
+        <WTAppliedF>0.000000</WTAppliedF>
+        <BoeReserev>N</BoeReserev>
+        <AgentCode nil="true"/>
+        <WTAppliedS>0.000000</WTAppliedS>
+        <EquVatSum>0.000000</EquVatSum>
+        <EquVatSumF>0.000000</EquVatSumF>
+        <EquVatSumS>0.000000</EquVatSumS>
+        <Installmnt>1</Installmnt>
+        <VATFirst>N</VATFirst>
+        <NnSbAmnt>0.000000</NnSbAmnt>
+        <NnSbAmntSC>0.000000</NnSbAmntSC>
+        <NbSbAmntFC>0.000000</NbSbAmntFC>
+        <ExepAmnt>0.000000</ExepAmnt>
+        <ExepAmntSC>0.000000</ExepAmntSC>
+        <ExepAmntFC>0.000000</ExepAmntFC>
+        <VatDate nil="true"/>
+        <CorrExt nil="true"/>
+        <CorrInv nil="true">0</CorrInv>
+        <NCorrInv nil="true">0</NCorrInv>
+        <CEECFlag>N</CEECFlag>
+        <BaseAmnt>0.000000</BaseAmnt>
+        <BaseAmntSC>0.000000</BaseAmntSC>
+        <BaseAmntFC>0.000000</BaseAmntFC>
+        <CtlAccount>140000</CtlAccount>
+        <BPLId nil="true">0</BPLId>
+        <BPLName nil="true"/>
+        <VATRegNum nil="true"/>
+        <TxInvRptNo nil="true"/>
+        <TxInvRptDt nil="true"/>
+        <KVVATCode nil="true"/>
+        <WTDetails nil="true"/>
+        <SumAbsId>-1</SumAbsId>
+        <SumRptDate nil="true"/>
+        <PIndicator>Default</PIndicator>
+        <ManualNum nil="true"/>
+        <UseShpdGd>N</UseShpdGd>
+        <BaseVtAt>0.000000</BaseVtAt>
+        <BaseVtAtSC>0.000000</BaseVtAtSC>
+        <BaseVtAtFC>0.000000</BaseVtAtFC>
+        <NnSbVAt>0.000000</NnSbVAt>
+        <NnSbVAtSC>0.000000</NnSbVAtSC>
+        <NbSbVAtFC>0.000000</NbSbVAtFC>
+        <ExptVAt>0.000000</ExptVAt>
+        <ExptVAtSC>0.000000</ExptVAtSC>
+        <ExptVAtFC>0.000000</ExptVAtFC>
+        <LYPmtAt>0.000000</LYPmtAt>
+        <LYPmtAtSC>0.000000</LYPmtAtSC>
+        <LYPmtAtFC>0.000000</LYPmtAtFC>
+        <ExpAnSum>0.000000</ExpAnSum>
+        <ExpAnSys>0.000000</ExpAnSys>
+        <ExpAnFrgn>0.000000</ExpAnFrgn>
+        <DocSubType>--</DocSubType>
+        <DpmStatus>O</DpmStatus>
+        <DpmAmnt>0.000000</DpmAmnt>
+        <DpmAmntSC>0.000000</DpmAmntSC>
+        <DpmAmntFC>0.000000</DpmAmntFC>
+        <DpmDrawn>N</DpmDrawn>
+        <DpmPrcnt>0.000000</DpmPrcnt>
+        <PaidSum>0.000000</PaidSum>
+        <PaidSumFc>0.000000</PaidSumFc>
+        <PaidSumSc>0.000000</PaidSumSc>
+        <FolioPref nil="true"/>
+        <FolioNum nil="true">0</FolioNum>
+        <DpmAppl>0.000000</DpmAppl>
+        <DpmApplFc>0.000000</DpmApplFc>
+        <DpmApplSc>0.000000</DpmApplSc>
+        <LPgFolioN nil="true">0</LPgFolioN>
+        <Header/>
+        <Footer/>
+        <Posted>Y</Posted>
+        <OwnerCode>8</OwnerCode>
+        <BPChCode nil="true"/>
+        <BPChCntc nil="true">0</BPChCntc>
+        <PayToCode>shipaddress</PayToCode>
+        <IsPaytoBnk>N</IsPaytoBnk>
+        <BnkCntry nil="true"/>
+        <BankCode nil="true"/>
+        <BnkAccount nil="true"/>
+        <BnkBranch nil="true"/>
+        <isIns>N</isIns>
+        <TrackNo nil="true"/>
+        <VersionNum>9.20.183.08</VersionNum>
+        <LangCode>3</LangCode>
+        <BPNameOW>N</BPNameOW>
+        <BillToOW>N</BillToOW>
+        <ShipToOW>N</ShipToOW>
+        <RetInvoice>N</RetInvoice>
+        <ClsDate nil="true"/>
+        <MInvNum nil="true">0</MInvNum>
+        <MInvDate nil="true"/>
+        <SeqCode nil="true">0</SeqCode>
+        <Serial nil="true">0</Serial>
+        <SeriesStr nil="true"/>
+        <SubStr nil="true"/>
+        <Model>0</Model>
+        <TaxOnExp>0.000000</TaxOnExp>
+        <TaxOnExpFc>0.000000</TaxOnExpFc>
+        <TaxOnExpSc>0.000000</TaxOnExpSc>
+        <TaxOnExAp>0.000000</TaxOnExAp>
+        <TaxOnExApF>0.000000</TaxOnExApF>
+        <TaxOnExApS>0.000000</TaxOnExApS>
+        <LastPmnTyp nil="true"/>
+        <LndCstNum nil="true">0</LndCstNum>
+        <UseCorrVat>N</UseCorrVat>
+        <BlkCredMmo>N</BlkCredMmo>
+        <OpenForLaC>Y</OpenForLaC>
+        <Excised>O</Excised>
+        <ExcRefDate nil="true"/>
+        <ExcRmvTime nil="true"/>
+        <SrvGpPrcnt>0.000000</SrvGpPrcnt>
+        <DepositNum nil="true">0</DepositNum>
+        <CertNum nil="true"/>
+        <DutyStatus>Y</DutyStatus>
+        <AutoCrtFlw>N</AutoCrtFlw>
+        <FlwRefDate nil="true"/>
+        <FlwRefNum nil="true"/>
+        <VatJENum>-1</VatJENum>
+        <DpmVat>0.000000</DpmVat>
+        <DpmVatFc>0.000000</DpmVatFc>
+        <DpmVatSc>0.000000</DpmVatSc>
+        <DpmAppVat>0.000000</DpmAppVat>
+        <DpmAppVatF>0.000000</DpmAppVatF>
+        <DpmAppVatS>0.000000</DpmAppVatS>
+        <InsurOp347>N</InsurOp347>
+        <IgnRelDoc>N</IgnRelDoc>
+        <BuildDesc>HOTFIX3</BuildDesc>
+        <ResidenNum>1</ResidenNum>
+        <Checker nil="true">0</Checker>
+        <Payee nil="true">0</Payee>
+        <CopyNumber>0</CopyNumber>
+        <SSIExmpt nil="true"/>
+        <PQTGrpSer nil="true">0</PQTGrpSer>
+        <PQTGrpNum nil="true">0</PQTGrpNum>
+        <PQTGrpHW>N</PQTGrpHW>
+        <ReopOriDoc nil="true"/>
+        <ReopManCls nil="true"/>
+        <DocManClsd>N</DocManClsd>
+        <ClosingOpt>1</ClosingOpt>
+        <SpecDate nil="true"/>
+        <Ordered>N</Ordered>
+        <NTSApprov>N</NTSApprov>
+        <NTSWebSite nil="true">0</NTSWebSite>
+        <NTSeTaxNo nil="true"/>
+        <NTSApprNo nil="true"/>
+        <PayDuMonth>N</PayDuMonth>
+        <ExtraMonth>0</ExtraMonth>
+        <ExtraDays>0</ExtraDays>
+        <CdcOffset>0</CdcOffset>
+        <SignMsg nil="true"/>
+        <SignDigest nil="true"/>
+        <CertifNum nil="true"/>
+        <KeyVersion nil="true">0</KeyVersion>
+        <EDocGenTyp>N</EDocGenTyp>
+        <ESeries nil="true">0</ESeries>
+        <EDocNum nil="true"/>
+        <EDocExpFrm nil="true">0</EDocExpFrm>
+        <OnlineQuo>N</OnlineQuo>
+        <POSEqNum nil="true"/>
+        <POSManufSN nil="true"/>
+        <POSCashN nil="true">0</POSCashN>
+        <EDocStatus>C</EDocStatus>
+        <EDocCntnt nil="true"/>
+        <EDocProces>C</EDocProces>
+        <EDocErrCod nil="true"/>
+        <EDocErrMsg nil="true"/>
+        <EDocCancel>N</EDocCancel>
+        <EDocTest>N</EDocTest>
+        <EDocPrefix nil="true"/>
+        <CUP nil="true">0</CUP>
+        <CIG nil="true">0</CIG>
+        <DpmAsDscnt>N</DpmAsDscnt>
+        <Attachment nil="true"/>
+        <AtcEntry nil="true">0</AtcEntry>
+        <SupplCode nil="true"/>
+        <GTSRlvnt>N</GTSRlvnt>
+        <BaseDisc>0.000000</BaseDisc>
+        <BaseDiscSc>0.000000</BaseDiscSc>
+        <BaseDiscFc>0.000000</BaseDiscFc>
+        <BaseDiscPr>0.000000</BaseDiscPr>
+        <CreateTS>82151</CreateTS>
+        <UpdateTS>92200</UpdateTS>
+        <SrvTaxRule>N</SrvTaxRule>
+        <AnnInvDecR nil="true">0</AnnInvDecR>
+        <Supplier nil="true"/>
+        <Releaser nil="true">0</Releaser>
+        <Receiver nil="true">0</Receiver>
+        <ToWhsCode nil="true"/>
+        <AssetDate nil="true"/>
+        <Requester nil="true"/>
+        <ReqName nil="true"/>
+        <Branch nil="true">0</Branch>
+        <Department nil="true">0</Department>
+        <Email nil="true"/>
+        <Notify nil="true"/>
+        <ReqType>12</ReqType>
+        <OriginType>M</OriginType>
+        <IsReuseNum>N</IsReuseNum>
+        <IsReuseNFN>N</IsReuseNFN>
+        <DocDlvry>0</DocDlvry>
+        <PaidDpm>0.000000</PaidDpm>
+        <PaidDpmF>0.000000</PaidDpmF>
+        <PaidDpmS>0.000000</PaidDpmS>
+        <EnvTypeNFe>-1</EnvTypeNFe>
+        <AgrNo nil="true">0</AgrNo>
+        <IsAlt>N</IsAlt>
+        <AltBaseTyp>-1</AltBaseTyp>
+        <AltBaseEnt nil="true">0</AltBaseEnt>
+        <AuthCode nil="true"/>
+        <StDlvDate nil="true"/>
+        <StDlvTime nil="true">0</StDlvTime>
+        <EndDlvDate nil="true"/>
+        <EndDlvTime nil="true">0</EndDlvTime>
+        <VclPlate nil="true"/>
+        <ElCoStatus nil="true"/>
+        <AtDocType nil="true"/>
+        <ElCoMsg nil="true"/>
+        <PrintSEPA>N</PrintSEPA>
+        <FreeChrg>0.000000</FreeChrg>
+        <FreeChrgFC>0.000000</FreeChrgFC>
+        <FreeChrgSC>0.000000</FreeChrgSC>
+        <NfeValue>0.000000</NfeValue>
+        <FiscDocNum nil="true"/>
+        <RelatedTyp>-1</RelatedTyp>
+        <RelatedEnt nil="true">0</RelatedEnt>
+        <CCDEntry nil="true">0</CCDEntry>
+        <NfePrntFo>0</NfePrntFo>
+        <ZrdAbs nil="true">0</ZrdAbs>
+        <POSRcptNo nil="true">0</POSRcptNo>
+        <FoCTax>0.000000</FoCTax>
+        <FoCTaxFC>0.000000</FoCTaxFC>
+        <FoCTaxSC>0.000000</FoCTaxSC>
+        <TpCusPres nil="true">0</TpCusPres>
+        <ExcDocDate nil="true"/>
+        <FoCFrght>0.000000</FoCFrght>
+        <FoCFrghtFC>0.000000</FoCFrghtFC>
+        <FoCFrghtSC>0.000000</FoCFrghtSC>
+        <InterimTyp>0</InterimTyp>
+        <PTICode nil="true"/>
+        <Letter nil="true"/>
+        <FolNumFrom nil="true">0</FolNumFrom>
+        <FolNumTo nil="true">0</FolNumTo>
+        <FolSeries nil="true">0</FolSeries>
+        <SplitTax>0.000000</SplitTax>
+        <SplitTaxFC>0.000000</SplitTaxFC>
+        <SplitTaxSC>0.000000</SplitTaxSC>
+        <ToBinCode nil="true"/>
+        <PermitNo nil="true"/>
+        <MYFtype nil="true"/>
+        <PoDropPrss>N</PoDropPrss>
+        <DocTaxID nil="true"/>
+        <DateReport nil="true"/>
+        <RepSection nil="true"/>
+        <ExclTaxRep>N</ExclTaxRep>
+        <PosCashReg nil="true">0</PosCashReg>
+        <DmpTransID nil="true"/>
+        <ECommerBP nil="true"/>
+        <EComerGSTN nil="true"/>
+        <Revision>N</Revision>
+        <RevRefNo nil="true"/>
+        <RevRefDate nil="true"/>
+        <RevCreRefN nil="true"/>
+        <RevCreRefD nil="true"/>
+        <TaxInvNo nil="true"/>
+        <FrmBpDate nil="true"/>
+        <GSTTranTyp nil="true"/>
+        <BaseType>-1</BaseType>
+        <BaseEntry nil="true">0</BaseEntry>
+        <UseBilAddr nil="true"/>
+        <SplitPmnt>N</SplitPmnt>
+        <U_DealDesk nil="true"/>
+        <U_Overall_Margin_Per>45.170000</U_Overall_Margin_Per>
+        <U_Notes nil="true"/>
+        <U_SalesOrderNum nil="true">0</U_SalesOrderNum>
+        <U_PurchaseOrderNum nil="true">0</U_PurchaseOrderNum>
+        <U_STORE_ID nil="true"/>
+        <U_ADJUSTMENT nil="true"/>
+        <U_Reversed nil="true"/>
+        <U_Email1 nil="true"/>
+        <U_Email2 nil="true"/>
+        <U_Email3 nil="true"/>
+        <U_EmailTo nil="true"/>
+        <U_EmailCC nil="true"/>
+        <U_EmailFrom nil="true"/>
+        <U_EmailAddress1 nil="true"/>
+        <U_EmailAddress2 nil="true"/>
+        <U_EmailAddress3 nil="true"/>
+        <U_Email4 nil="true"/>
+        <U_Email5 nil="true"/>
+        <U_Email6 nil="true"/>
+        <U_EmailComments nil="true"/>
+        <U_OverallMargin>91.440000</U_OverallMargin>
+        <U_se_barcodedoc nil="true"/>
+        <U_PALLETS nil="true">0</U_PALLETS>
+        <U_COLLI nil="true">0</U_COLLI>
+        <U_se_driver nil="true"/>
+        <U_se_deliverystatus nil="true"/>
+        <U_se_deliveryattempt nil="true">0</U_se_deliveryattempt>
+        <U_se_firstdelivery nil="true"/>
+        <U_se_shipdate nil="true"/>
+        <U_se_shiptime nil="true">0</U_se_shiptime>
+        <U_EXTRAINFO nil="true"/>
+        <U_se_signedbydriver nil="true"/>
+        <U_se_signatureinfo nil="true"/>
+        <U_se_emailreceivers nil="true"/>
+        <U_se_signedby nil="true"/>
+        <U_se_datedelivered nil="true"/>
+        <U_se_timedelivered nil="true">0</U_se_timedelivered>
+        <U_se_notdelreason nil="true"/>
+        <U_se_gsxpurchase nil="true"/>
+        <U_se_gsxpurchnum nil="true"/>
+        <U_se_gsxreference nil="true"/>
+        <U_se_servdoc>W</U_se_servdoc>
+        <U_se_xmlsent>N</U_se_xmlsent>
+        <U_se_transactioncode nil="true"/>
+        <U_se_discreas nil="true"/>
+        <U_se_manualsend>N</U_se_manualsend>
+        <U_se_recptno nil="true"/>
+        <U_se_transactiondate nil="true"/>
+        <U_se_receipt_remarks nil="true"/>
+        <U_se_approvedby nil="true">0</U_se_approvedby>
+        <U_se_rxmlzipcode nil="true"/>
+        <U_se_picked>N</U_se_picked>
+        <U_se_barcode nil="true"/>
+        <U_se_ispickupinshop>N</U_se_ispickupinshop>
+        <U_se_dies nil="true"/>
+        <U_SE_DSCTEXT>No discounts in this invoice</U_SE_DSCTEXT>
+        <U_se_reserv nil="true"/>
+        <U_se_paymeth nil="true"/>
+        <U_se_authcode nil="true"/>
+        <U_se_chequeno nil="true"/>
+        <U_se_payamou>0.000000</U_se_payamou>
+        <U_se_paydate nil="true"/>
+        <U_se_paiddoc>N</U_se_paiddoc>
+        <U_Purchase>N</U_Purchase>
+        <U_se_bankaccount nil="true"/>
+        <U_se_bankaccholder nil="true"/>
+        <U_se_webshopordernr nil="true"/>
+        <U_se_shippingmethod nil="true"/>
+        <U_se_paymentmethod nil="true"/>
+        <U_se_emailaddress nil="true"/>
+        <U_se_inst_id nil="true"/>
+        <U_se_webshopid nil="true"/>
+        <U_se_websiteid nil="true"/>
+        <U_se_webshopcomments nil="true"/>
+        <U_se_ordertype>U</U_se_ordertype>
+        <U_se_request_status>U</U_se_request_status>
+        <U_se_orderlistid nil="true"/>
+        <U_se_preflistid nil="true"/>
+        <U_se_vatinvdiscxml nil="true"/>
+        <U_se_vatwebdiscxml nil="true"/>
+        <U_se_vattotalxml nil="true"/>
+        <U_se_approvalreason nil="true"/>
+        <U_se_returnapproved nil="true"/>
+        <U_se_grpoissue nil="true"/>
+        <U_se_purstat nil="true"/>
+        <U_se_marge_amount>0.000000</U_se_marge_amount>
+        <U_se_marge>0.000000</U_se_marge>
+        <U_se_downpaymentcode nil="true"/>
+        <U_se_excludevatcheck>N</U_se_excludevatcheck>
+        <U_se_portaldoctype nil="true"/>
+        <U_se_showasbackorder nil="true"/>
+        <U_se_ukcrtclaim nil="true"/>
+        <U_se_reference nil="true"/>
+        <U_se_xmldelivery nil="true"/>
+        <U_se_servicecallid nil="true">0</U_se_servicecallid>
+        <U_se_servicereasonid nil="true">0</U_se_servicereasonid>
+        <U_se_depnr nil="true">0</U_se_depnr>
+        <U_se_deptransid64 nil="true"/>
+        <U_se_depstatus nil="true"/>
+        <U_se_deptype>S</U_se_deptype>
+        <U_se_httprespc nil="true"/>
+        <U_se_httpresp nil="true"/>
+        <U_se_httprespd nil="true"/>
+        <U_se_httprespr>N</U_se_httprespr>
+        <U_se_send_xml>N</U_se_send_xml>
+        <U_se_conf_rec>N</U_se_conf_rec>
+        <U_se_conf_date nil="true"/>
+        <U_se_dlv_type nil="true"/>
+        <U_se_stocktransfer nil="true">0</U_se_stocktransfer>
+        <U_se_scanned_by nil="true">0</U_se_scanned_by>
+        <U_se_machine nil="true"/>
+        <U_se_gsxsymptomcd nil="true"/>
+        <U_se_gsxsymptomdsc nil="true"/>
+        <U_se_gsxissuecd nil="true"/>
+        <U_se_gsxissuedsc nil="true"/>
+        <U_se_gsxconfnr nil="true"/>
+        <U_se_repairstat nil="true"/>
+        <U_se_gsxerror nil="true"/>
+        <U_se_senttostore>N</U_se_senttostore>
+        <U_se_informcustomer>N</U_se_informcustomer>
+        <U_se_dpd_label>N</U_se_dpd_label>
+        <U_se_dpd_firstname nil="true"/>
+        <U_se_dpd_lastname nil="true"/>
+        <U_se_dpd_addressl1 nil="true"/>
+        <U_se_dpd_addressl2 nil="true"/>
+        <U_se_dpd_zipcode nil="true"/>
+        <U_se_dpd_county nil="true"/>
+        <U_se_dpd_city nil="true"/>
+        <U_se_dpd_country nil="true"/>
+        <U_se_dpd_telephone nil="true"/>
+        <U_se_dpd_company nil="true"/>
+        <U_se_whcodedoc nil="true"/>
+        <U_se_ponumweb nil="true"/>
+        <U_se_krat nil="true"/>
+        <U_se_repreqnr nil="true">0</U_se_repreqnr>
+        <U_se_cardcodesb nil="true"/>
+        <U_se_ordernr nil="true"/>
+        <U_se_tracktrace nil="true"/>
+        <U_se_lbl_printed>N</U_se_lbl_printed>
+        <U_se_xmlanswer nil="true"/>
+        <U_se_gsxreferenceportal nil="true"/>
+        <U_se_gsxponumber nil="true"/>
+        <U_se_auto_delivery>Y</U_se_auto_delivery>
+      </row>
+    </OINV>
+    <INV1>
+      <row>
+        <DocEntry>557934</DocEntry>
+        <LineNum>0</LineNum>
+        <TargetType>-1</TargetType>
+        <TrgetEntry nil="true">0</TrgetEntry>
+        <BaseRef>2208412</BaseRef>
+        <BaseType>15</BaseType>
+        <BaseEntry>451563</BaseEntry>
+        <BaseLine>0</BaseLine>
+        <LineStatus>O</LineStatus>
+        <ItemCode>BO1297826</ItemCode>
+        <Dscription>B&amp;O BeoPlay A1 Speaker - Black</Dscription>
+        <Quantity>1.000000</Quantity>
+        <ShipDate>20180409</ShipDate>
+        <OpenQty>1.000000</OpenQty>
+        <Price>202.440000</Price>
+        <Currency>EUR</Currency>
+        <Rate>0.000000</Rate>
+        <DiscPrcnt>0.000000</DiscPrcnt>
+        <LineTotal>202.440000</LineTotal>
+        <TotalFrgn>0.000000</TotalFrgn>
+        <OpenSum>202.440000</OpenSum>
+        <OpenSumFC>0.000000</OpenSumFC>
+        <VendorNum/>
+        <SerialNum/>
+        <WhsCode>GRF</WhsCode>
+        <SlpCode>-1</SlpCode>
+        <Commission>0.000000</Commission>
+        <TreeType>N</TreeType>
+        <AcctCode>400000</AcctCode>
+        <TaxStatus>Y</TaxStatus>
+        <GrossBuyPr>111.000000</GrossBuyPr>
+        <PriceBefDi>202.440000</PriceBefDi>
+        <DocDate>20180409</DocDate>
+        <Flags>0</Flags>
+        <OpenCreQty>1.000000</OpenCreQty>
+        <UseBaseUn>N</UseBaseUn>
+        <SubCatNum/>
+        <BaseCard>I999999</BaseCard>
+        <TotalSumSy>202.440000</TotalSumSy>
+        <OpenSumSys>202.440000</OpenSumSys>
+        <InvntSttus>O</InvntSttus>
+        <OcrCode>IE</OcrCode>
+        <Project/>
+        <CodeBars>5705260062977</CodeBars>
+        <VatPrcnt>20.000000</VatPrcnt>
+        <VatGroup>UKS20</VatGroup>
+        <PriceAfVAT>242.930000</PriceAfVAT>
+        <Height1>0.000000</Height1>
+        <Hght1Unit nil="true">0</Hght1Unit>
+        <Height2>0.000000</Height2>
+        <Hght2Unit nil="true">0</Hght2Unit>
+        <Width1>0.000000</Width1>
+        <Wdth1Unit nil="true">0</Wdth1Unit>
+        <Width2>0.000000</Width2>
+        <Wdth2Unit nil="true">0</Wdth2Unit>
+        <Length1>0.000000</Length1>
+        <Len1Unit nil="true">0</Len1Unit>
+        <length2>0.000000</length2>
+        <Len2Unit nil="true">0</Len2Unit>
+        <Volume>0.000000</Volume>
+        <VolUnit>4</VolUnit>
+        <Weight1>0.000000</Weight1>
+        <Wght1Unit nil="true">0</Wght1Unit>
+        <Weight2>0.000000</Weight2>
+        <Wght2Unit nil="true">0</Wght2Unit>
+        <Factor1>1.000000</Factor1>
+        <Factor2>1.000000</Factor2>
+        <Factor3>1.000000</Factor3>
+        <Factor4>1.000000</Factor4>
+        <PackQty>1.000000</PackQty>
+        <UpdInvntry>Y</UpdInvntry>
+        <BaseDocNum>2208412</BaseDocNum>
+        <BaseAtCard>TEST MP 06-04-2018/6</BaseAtCard>
+        <SWW/>
+        <VatSum>40.490000</VatSum>
+        <VatSumFrgn>0.000000</VatSumFrgn>
+        <VatSumSy>40.490000</VatSumSy>
+        <FinncPriod>148</FinncPriod>
+        <ObjType>13</ObjType>
+        <LogInstanc>0</LogInstanc>
+        <BlockNum nil="true"/>
+        <ImportLog nil="true"/>
+        <DedVatSum>40.490000</DedVatSum>
+        <DedVatSumF>0.000000</DedVatSumF>
+        <DedVatSumS>40.490000</DedVatSumS>
+        <IsAqcuistn>N</IsAqcuistn>
+        <DistribSum>0.000000</DistribSum>
+        <DstrbSumFC>0.000000</DstrbSumFC>
+        <DstrbSumSC>0.000000</DstrbSumSC>
+        <GrssProfit>91.440000</GrssProfit>
+        <GrssProfSC>91.440000</GrssProfSC>
+        <GrssProfFC>0.000000</GrssProfFC>
+        <VisOrder>0</VisOrder>
+        <INMPrice>202.440000</INMPrice>
+        <PoTrgNum>56610</PoTrgNum>
+        <PoTrgEntry>56813</PoTrgEntry>
+        <DropShip>N</DropShip>
+        <PoLineNum>0</PoLineNum>
+        <Address>Unit B1 Block B<br/>Dublin 12<br/> D12 TK75<br/>IRELAND</Address>
+        <TaxCode nil="true"/>
+        <TaxType>Y</TaxType>
+        <OrigItem nil="true"/>
+        <BackOrdr>Y</BackOrdr>
+        <FreeTxt/>
+        <PickStatus>N</PickStatus>
+        <PickOty>0.000000</PickOty>
+        <PickIdNo nil="true">0</PickIdNo>
+        <TrnsCode>4</TrnsCode>
+        <VatAppld>0.000000</VatAppld>
+        <VatAppldFC>0.000000</VatAppldFC>
+        <VatAppldSC>0.000000</VatAppldSC>
+        <BaseQty>1.000000</BaseQty>
+        <BaseOpnQty>1.000000</BaseOpnQty>
+        <VatDscntPr>0.000000</VatDscntPr>
+        <WtLiable>N</WtLiable>
+        <DeferrTax>N</DeferrTax>
+        <EquVatPer>0.000000</EquVatPer>
+        <EquVatSum>0.000000</EquVatSum>
+        <EquVatSumF>0.000000</EquVatSumF>
+        <EquVatSumS>0.000000</EquVatSumS>
+        <LineVat>40.490000</LineVat>
+        <LineVatlF>0.000000</LineVatlF>
+        <LineVatS>40.490000</LineVatS>
+        <unitMsr/>
+        <NumPerMsr>1.000000</NumPerMsr>
+        <CEECFlag>S</CEECFlag>
+        <ToStock>0.000000</ToStock>
+        <ToDiff>0.000000</ToDiff>
+        <ExciseAmt>0.000000</ExciseAmt>
+        <TaxPerUnit>0.000000</TaxPerUnit>
+        <TotInclTax>0.000000</TotInclTax>
+        <CountryOrg nil="true"/>
+        <StckDstSum>0.000000</StckDstSum>
+        <ReleasQtty>0.000000</ReleasQtty>
+        <LineType>R</LineType>
+        <TranType nil="true"/>
+        <Text nil="true"/>
+        <OwnerCode>8</OwnerCode>
+        <StockPrice>111.000000</StockPrice>
+        <ConsumeFCT>N</ConsumeFCT>
+        <LstByDsSum>0.000000</LstByDsSum>
+        <StckINMPr>0.000000</StckINMPr>
+        <LstBINMPr>0.000000</LstBINMPr>
+        <StckDstFc>0.000000</StckDstFc>
+        <StckDstSc>0.000000</StckDstSc>
+        <LstByDsFc>0.000000</LstByDsFc>
+        <LstByDsSc>0.000000</LstByDsSc>
+        <StockSum>0.000000</StockSum>
+        <StockSumFc>0.000000</StockSumFc>
+        <StockSumSc>0.000000</StockSumSc>
+        <StckSumApp>0.000000</StckSumApp>
+        <StckAppFc>0.000000</StckAppFc>
+        <StckAppSc>0.000000</StckAppSc>
+        <ShipToCode>billaddress</ShipToCode>
+        <ShipToDesc>test<br/>test<br/> 1234<br/>IRELAND</ShipToDesc>
+        <StckAppD>0.000000</StckAppD>
+        <StckAppDFC>0.000000</StckAppDFC>
+        <StckAppDSC>0.000000</StckAppDSC>
+        <BasePrice>E</BasePrice>
+        <GTotal>242.930000</GTotal>
+        <GTotalFC>0.000000</GTotalFC>
+        <GTotalSC>242.930000</GTotalSC>
+        <DistribExp>Y</DistribExp>
+        <DescOW>N</DescOW>
+        <DetailsOW>N</DetailsOW>
+        <GrossBase>-5</GrossBase>
+        <VatWoDpm>0.000000</VatWoDpm>
+        <VatWoDpmFc>0.000000</VatWoDpmFc>
+        <VatWoDpmSc>0.000000</VatWoDpmSc>
+        <CFOPCode nil="true"/>
+        <CSTCode nil="true"/>
+        <Usage nil="true">0</Usage>
+        <TaxOnly>N</TaxOnly>
+        <WtCalced>N</WtCalced>
+        <QtyToShip>0.000000</QtyToShip>
+        <DelivrdQty>0.000000</DelivrdQty>
+        <OrderedQty>1.000000</OrderedQty>
+        <CogsOcrCod>IE</CogsOcrCod>
+        <CiOppLineN>-1</CiOppLineN>
+        <CogsAcct>500005</CogsAcct>
+        <ChgAsmBoMW>N</ChgAsmBoMW>
+        <ActDelDate>20180409</ActDelDate>
+        <OcrCode2>GRF</OcrCode2>
+        <OcrCode3 nil="true"/>
+        <OcrCode4>APR</OcrCode4>
+        <OcrCode5 nil="true"/>
+        <TaxDistSum>0.000000</TaxDistSum>
+        <TaxDistSFC>0.000000</TaxDistSFC>
+        <TaxDistSSC>0.000000</TaxDistSSC>
+        <PostTax>Y</PostTax>
+        <Excisable nil="true"/>
+        <AssblValue>0.000000</AssblValue>
+        <RG23APart1 nil="true">0</RG23APart1>
+        <RG23APart2 nil="true">0</RG23APart2>
+        <RG23CPart1 nil="true">0</RG23CPart1>
+        <RG23CPart2 nil="true">0</RG23CPart2>
+        <CogsOcrCo2>GRF</CogsOcrCo2>
+        <CogsOcrCo3 nil="true"/>
+        <CogsOcrCo4>APR</CogsOcrCo4>
+        <CogsOcrCo5 nil="true"/>
+        <LnExcised nil="true"/>
+        <LocCode nil="true">0</LocCode>
+        <StockValue>111.000000</StockValue>
+        <GPTtlBasPr>111.000000</GPTtlBasPr>
+        <unitMsr2/>
+        <NumPerMsr2>1.000000</NumPerMsr2>
+        <SpecPrice>N</SpecPrice>
+        <CSTfIPI nil="true"/>
+        <CSTfPIS nil="true"/>
+        <CSTfCOFINS nil="true"/>
+        <ExLineNo nil="true"/>
+        <isSrvCall>N</isSrvCall>
+        <PQTReqQty>0.000000</PQTReqQty>
+        <PQTReqDate nil="true"/>
+        <PcDocType>-1</PcDocType>
+        <PcQuantity>0.000000</PcQuantity>
+        <LinManClsd>N</LinManClsd>
+        <VatGrpSrc>N</VatGrpSrc>
+        <NoInvtryMv>N</NoInvtryMv>
+        <ActBaseEnt nil="true">0</ActBaseEnt>
+        <ActBaseLn nil="true">0</ActBaseLn>
+        <ActBaseNum nil="true">0</ActBaseNum>
+        <OpenRtnQty>0.000000</OpenRtnQty>
+        <AgrNo nil="true">0</AgrNo>
+        <AgrLnNum nil="true">0</AgrLnNum>
+        <CredOrigin nil="true"/>
+        <Surpluses>0.000000</Surpluses>
+        <DefBreak>0.000000</DefBreak>
+        <Shortages>0.000000</Shortages>
+        <UomEntry>-1</UomEntry>
+        <UomEntry2>-1</UomEntry2>
+        <UomCode>Manual</UomCode>
+        <UomCode2>Manual</UomCode2>
+        <FromWhsCod nil="true"/>
+        <NeedQty>N</NeedQty>
+        <PartRetire>N</PartRetire>
+        <RetireQty>0.000000</RetireQty>
+        <RetireAPC>0.000000</RetireAPC>
+        <RetirAPCFC>0.000000</RetirAPCFC>
+        <RetirAPCSC>0.000000</RetirAPCSC>
+        <InvQty>1.000000</InvQty>
+        <OpenInvQty>1.000000</OpenInvQty>
+        <EnSetCost>N</EnSetCost>
+        <RetCost>0.000000</RetCost>
+        <Incoterms>0</Incoterms>
+        <TransMod>0</TransMod>
+        <LineVendor/>
+        <DistribIS>N</DistribIS>
+        <ISDistrb>0.000000</ISDistrb>
+        <ISDistrbFC>0.000000</ISDistrbFC>
+        <ISDistrbSC>0.000000</ISDistrbSC>
+        <IsByPrdct>N</IsByPrdct>
+        <ItemType>4</ItemType>
+        <PriceEdit>N</PriceEdit>
+        <PrntLnNum nil="true">0</PrntLnNum>
+        <LinePoPrss>N</LinePoPrss>
+        <FreeChrgBP nil="true"/>
+        <TaxRelev>Y</TaxRelev>
+        <LegalText nil="true"/>
+        <ThirdParty>N</ThirdParty>
+        <LicTradNum nil="true"/>
+        <InvQtyOnly>N</InvQtyOnly>
+        <UnencReasn nil="true">0</UnencReasn>
+        <ShipFromCo nil="true"/>
+        <ShipFromDe nil="true"/>
+        <FisrtBin nil="true"/>
+        <AllocBinC nil="true"/>
+        <ExpType nil="true"/>
+        <ExpUUID nil="true"/>
+        <ExpOpType nil="true"/>
+        <DIOTNat nil="true"/>
+        <MYFtype nil="true"/>
+        <ItmTaxType nil="true"/>
+        <SacEntry nil="true">0</SacEntry>
+        <NCMCode>-1</NCMCode>
+        <HsnEntry nil="true">0</HsnEntry>
+        <U_CusDisc nil="true"/>
+        <U_ProdDisc nil="true"/>
+        <U_CustPercent nil="true"/>
+        <U_ItemStdCost nil="true"/>
+        <U_TCLessRebate nil="true"/>
+        <U_CosLessRebate nil="true"/>
+        <U_TotSellLessDealDes nil="true"/>
+        <U_LineProfit nil="true"/>
+        <U_CXS_TDKY nil="true"/>
+        <U_CXS_RGCD nil="true"/>
+        <U_RegularDisc nil="true">0</U_RegularDisc>
+        <U_TotalSell2 nil="true">0</U_TotalSell2>
+        <U_LineProfit2 nil="true">0</U_LineProfit2>
+        <U_l nil="true"/>
+        <U_test nil="true"/>
+        <U_Intrastat_Code nil="true"/>
+        <U_Intrastat_Country nil="true"/>
+        <U_CRT_DISC>0</U_CRT_DISC>
+        <U_LINE_MARGIN>91.44</U_LINE_MARGIN>
+        <U_LINE_MARGIN_PERC>45.168938</U_LINE_MARGIN_PERC>
+        <U_TRUE_COST>111</U_TRUE_COST>
+        <U_se_targetwhs nil="true"/>
+        <U_se_specialbid>0.000000</U_se_specialbid>
+        <U_se_sbprogram nil="true"/>
+        <U_se_allocatedstock>0.000000</U_se_allocatedstock>
+        <U_se_xbestat>1</U_se_xbestat>
+        <U_xbeleve nil="true"/>
+        <U_xbepric>0.000000</U_xbepric>
+        <U_se_retsum nil="true"/>
+        <U_AfdrJN>Ja</U_AfdrJN>
+        <U_se_xbeleve nil="true"/>
+        <U_se_xbepric>0.000000</U_se_xbepric>
+        <U_se_discreas nil="true"/>
+        <U_se_itemres>N</U_se_itemres>
+        <U_se_nodeid nil="true"/>
+        <U_se_retreason nil="true"/>
+        <U_se_pricekey nil="true"/>
+        <U_se_budgetamount>0.000000</U_se_budgetamount>
+        <U_se_extrainfo nil="true"/>
+        <U_se_linestatus nil="true"/>
+        <U_se_productgroupxml nil="true"/>
+        <U_se_vatcodexml nil="true"/>
+        <U_se_txt1 nil="true"/>
+        <U_se_txt2 nil="true"/>
+        <U_se_mainitem nil="true"/>
+        <U_se_budget>N</U_se_budget>
+        <U_se_baseinvoice nil="true">0</U_se_baseinvoice>
+        <U_se_crt>0.000000</U_se_crt>
+        <U_se_crt_program nil="true"/>
+        <U_se_marge_amount>0.000000</U_se_marge_amount>
+        <U_se_marge>0.000000</U_se_marge>
+        <U_se_curprice>111.000000</U_se_curprice>
+        <U_se_curpricegbp>94.350000</U_se_curpricegbp>
+        <U_se_salprice>202.440000</U_se_salprice>
+        <U_se_salpriceuk>165.830000</U_se_salpriceuk>
+        <U_se_parentlinenum nil="true">0</U_se_parentlinenum>
+        <U_se_isadditionalitm nil="true"/>
+        <U_se_iswarrantyvalid nil="true"/>
+        <U_se_isfromownstock nil="true"/>
+        <U_se_gsxpartnr nil="true"/>
+        <U_se_isgsxserialitem nil="true"/>
+        <U_se_gsxoldserialnr nil="true"/>
+        <U_se_gsxnewserialnr nil="true"/>
+        <U_se_gsxlabourtier nil="true"/>
+        <U_se_dep>N</U_se_dep>
+        <U_se_cnf_qty>0.000000</U_se_cnf_qty>
+        <U_se_cnf_pri>0.000000</U_se_cnf_pri>
+        <U_se_gsxcompgroup nil="true"/>
+        <U_se_gsxcompgrdsc nil="true"/>
+        <U_se_gsxcompcode nil="true"/>
+        <U_se_gsxcompdsc nil="true"/>
+        <U_se_gsxcompmodcd nil="true"/>
+        <U_se_gsxcompmoddsc nil="true"/>
+        <U_se_gsxpartdsc nil="true"/>
+        <U_se_isabuse>N</U_se_isabuse>
+        <U_se_gsxunreturnable>N</U_se_gsxunreturnable>
+        <U_se_gsxconsignflag>N</U_se_gsxconsignflag>
+        <U_se_reser>N</U_se_reser>
+        <U_se_linenum nil="true"/>
+        <U_se_orig_itemcode nil="true"/>
+        <U_se_custpartnum nil="true"/>
+        <U_se_parentitemcode nil="true"/>
+        <U_se_parentserial nil="true"/>
+        <U_se_gsxexprice>0.000000</U_se_gsxexprice>
+        <U_se_gsxstprice>0.000000</U_se_gsxstprice>
+        <U_se_uniquenr nil="true"/>
+        <U_se_main_itemcode nil="true"/>
+        <U_se_main_linenum nil="true">0</U_se_main_linenum>
+        <U_se_main_serialnumber nil="true"/>
+        <U_se_ord_qty>0.000000</U_se_ord_qty>
+        <U_se_ord_pri>0.000000</U_se_ord_pri>
+        <U_se_empty>N</U_se_empty>
+        <U_se_collobarcode nil="true"/>
+      </row>
+    </INV1>
+    <INV6>
+      <row>
+        <DocEntry>557934</DocEntry>
+        <InstlmntID>1</InstlmntID>
+        <ObjType>13</ObjType>
+        <LogInstanc>0</LogInstanc>
+        <DueDate>20180409</DueDate>
+        <Status>O</Status>
+        <DunnLevel>0</DunnLevel>
+        <InsTotal>242.930000</InsTotal>
+        <InsTotalFC nil="true">0.000000</InsTotalFC>
+        <InsTotalSy>242.930000</InsTotalSy>
+        <PaidToDate>0.000000</PaidToDate>
+        <PaidFC nil="true">0.000000</PaidFC>
+        <PaidSys>0.000000</PaidSys>
+        <VatSum>40.490000</VatSum>
+        <VatSumFC nil="true">0.000000</VatSumFC>
+        <VatSumSy>40.490000</VatSumSy>
+        <VatPaid>0.000000</VatPaid>
+        <VatPaidFC nil="true">0.000000</VatPaidFC>
+        <VatPaidSys>0.000000</VatPaidSys>
+        <TotalExpns>0.000000</TotalExpns>
+        <TotalExpFC nil="true">0.000000</TotalExpFC>
+        <TotalExpSC>0.000000</TotalExpSC>
+        <ExpAppl>0.000000</ExpAppl>
+        <ExpApplFC nil="true">0.000000</ExpApplFC>
+        <ExpApplSC>0.000000</ExpApplSC>
+        <WTSum>0.000000</WTSum>
+        <WTSumFC nil="true">0.000000</WTSumFC>
+        <WTSumSC>0.000000</WTSumSC>
+        <WTApplied>0.000000</WTApplied>
+        <WTAppliedF nil="true">0.000000</WTAppliedF>
+        <WTAppliedS>0.000000</WTAppliedS>
+        <TotalBlck>0.000000</TotalBlck>
+        <TotalBlckF>0.000000</TotalBlckF>
+        <TotalBlckS>0.000000</TotalBlckS>
+        <VATBlck>0.000000</VATBlck>
+        <VATBlckFC>0.000000</VATBlckFC>
+        <VATBlckSC>0.000000</VATBlckSC>
+        <ExpnsBlck>0.000000</ExpnsBlck>
+        <ExpnsBlckF>0.000000</ExpnsBlckF>
+        <ExpnsBlckS>0.000000</ExpnsBlckS>
+        <WTBlocked>0.000000</WTBlocked>
+        <WTBlockedF>0.000000</WTBlockedF>
+        <WTBlockedS>0.000000</WTBlockedS>
+        <InstPrcnt>100.000000</InstPrcnt>
+        <DunWizBlck>N</DunWizBlck>
+        <DunDate nil="true"/>
+        <Paid>0.000000</Paid>
+        <PaidFrgn>0.000000</PaidFrgn>
+        <PaidSc>0.000000</PaidSc>
+        <reserved>N</reserved>
+        <TaxOnExp>0.000000</TaxOnExp>
+        <TaxOnExpFc nil="true">0.000000</TaxOnExpFc>
+        <TaxOnExpSc>0.000000</TaxOnExpSc>
+        <TaxOnExpAp>0.000000</TaxOnExpAp>
+        <TaxOnExApF nil="true">0.000000</TaxOnExApF>
+        <TaxOnExApS>0.000000</TaxOnExApS>
+        <TaxOnExBlo>0.000000</TaxOnExBlo>
+        <TaxOnExBlF>0.000000</TaxOnExBlF>
+        <TaxOnExBlS>0.000000</TaxOnExBlS>
+        <LvlUpdDate nil="true"/>
+        <Ordered>N</Ordered>
+        <PaidDpm>0.000000</PaidDpm>
+        <PaidDpmFc>0.000000</PaidDpmFc>
+        <PaidDpmSc>0.000000</PaidDpmSc>
+      </row>
+    </INV6>
+    <INV12>
+      <row>
+        <DocEntry>557934</DocEntry>
+        <TaxId0 nil="true"/>
+        <TaxId1 nil="true"/>
+        <TaxId2 nil="true"/>
+        <TaxId3 nil="true"/>
+        <TaxId4 nil="true"/>
+        <TaxId5 nil="true"/>
+        <TaxId6 nil="true"/>
+        <TaxId7 nil="true"/>
+        <TaxId8 nil="true"/>
+        <TaxId9 nil="true"/>
+        <State nil="true"/>
+        <County nil="true"/>
+        <Incoterms nil="true"/>
+        <Vehicle nil="true"/>
+        <VidState nil="true"/>
+        <NfRef>Based on Sales Orders 2113023. Based on Purchase Orders 56610. Based on Sales Orders 2113023. Based on Purchase Orders 56610.</NfRef>
+        <Carrier nil="true"/>
+        <QoP nil="true">0</QoP>
+        <PackDesc nil="true"/>
+        <Brand nil="true"/>
+        <NoSU nil="true">0</NoSU>
+        <NetWeight>0.000000</NetWeight>
+        <GrsWeight>0.000000</GrsWeight>
+        <LogInstanc>0</LogInstanc>
+        <ObjectType>13</ObjectType>
+        <TaxId10 nil="true"/>
+        <TransCat nil="true"/>
+        <FormNo nil="true"/>
+        <TaxId11 nil="true"/>
+        <StreetS>test</StreetS>
+        <BlockS nil="true"/>
+        <BuildingS/>
+        <CityS>test</CityS>
+        <ZipCodeS>1234</ZipCodeS>
+        <CountyS nil="true"/>
+        <StateS nil="true"/>
+        <CountryS>IE</CountryS>
+        <AddrTypeS nil="true"/>
+        <StreetNoS nil="true"/>
+        <StreetB>test</StreetB>
+        <BlockB>test</BlockB>
+        <BuildingB/>
+        <CityB>test</CityB>
+        <ZipCodeB>1234</ZipCodeB>
+        <CountyB nil="true"/>
+        <StateB nil="true"/>
+        <CountryB>IE</CountryB>
+        <AddrTypeB nil="true"/>
+        <StreetNoB nil="true"/>
+        <ImpORExp nil="true"/>
+        <Vat>N</Vat>
+        <AltCrdNamB nil="true"/>
+        <AltTaxIdB nil="true"/>
+        <Address2S>test</Address2S>
+        <Address3S nil="true"/>
+        <Address2B nil="true"/>
+        <Address3B nil="true"/>
+        <MainUsage nil="true">0</MainUsage>
+        <GlbLocNumS nil="true"/>
+        <GlbLocNumB nil="true"/>
+        <CollectDT nil="true"/>
+        <TransprtDT nil="true"/>
+        <TransprtRS nil="true"/>
+        <TaxId12 nil="true"/>
+        <TaxId13 nil="true"/>
+        <ImpExpNo nil="true"/>
+        <ImpExpDate nil="true"/>
+        <BpGSTType nil="true">0</BpGSTType>
+        <BpGSTN nil="true"/>
+        <BpStateCod nil="true"/>
+        <BPStatGSTN nil="true"/>
+        <LocGSTType nil="true">0</LocGSTType>
+        <LocGSTN nil="true"/>
+        <LocStatCod nil="true"/>
+        <LocStaGSTN nil="true"/>
+        <BpCountry nil="true"/>
+        <OrigImpNo nil="true"/>
+        <OrigImpDat nil="true"/>
+        <ExportType>E</ExportType>
+        <PortCode nil="true"/>
+      </row>
+    </INV12>
+    <INV12>
+      <row>
+        <DocEntry>557934</DocEntry>
+        <TaxId0 nil="true"/>
+        <TaxId1 nil="true"/>
+        <TaxId2 nil="true"/>
+        <TaxId3 nil="true"/>
+        <TaxId4 nil="true"/>
+        <TaxId5 nil="true"/>
+        <TaxId6 nil="true"/>
+        <TaxId7 nil="true"/>
+        <TaxId8 nil="true"/>
+        <TaxId9 nil="true"/>
+        <State nil="true"/>
+        <County nil="true"/>
+        <Incoterms nil="true"/>
+        <Vehicle nil="true"/>
+        <VidState nil="true"/>
+        <NfRef>Based on Sales Orders 2113023. Based on Purchase Orders 56610. Based on Sales Orders 2113023. Based on Purchase Orders 56610.</NfRef>
+        <Carrier nil="true"/>
+        <QoP nil="true">0</QoP>
+        <PackDesc nil="true"/>
+        <Brand nil="true"/>
+        <NoSU nil="true">0</NoSU>
+        <NetWeight>0.000000</NetWeight>
+        <GrsWeight>0.000000</GrsWeight>
+        <LogInstanc>0</LogInstanc>
+        <ObjectType>13</ObjectType>
+        <TaxId10 nil="true"/>
+        <TransCat nil="true"/>
+        <FormNo nil="true"/>
+        <TaxId11 nil="true"/>
+        <StreetS>test</StreetS>
+        <BlockS nil="true"/>
+        <BuildingS/>
+        <CityS>test</CityS>
+        <ZipCodeS>1234</ZipCodeS>
+        <CountyS nil="true"/>
+        <StateS nil="true"/>
+        <CountryS>IE</CountryS>
+        <AddrTypeS nil="true"/>
+        <StreetNoS nil="true"/>
+        <StreetB>test</StreetB>
+        <BlockB>test</BlockB>
+        <BuildingB/>
+        <CityB>test</CityB>
+        <ZipCodeB>1234</ZipCodeB>
+        <CountyB nil="true"/>
+        <StateB nil="true"/>
+        <CountryB>IE</CountryB>
+        <AddrTypeB nil="true"/>
+        <StreetNoB nil="true"/>
+        <ImpORExp nil="true"/>
+        <Vat>N</Vat>
+        <AltCrdNamB nil="true"/>
+        <AltTaxIdB nil="true"/>
+        <Address2S>test</Address2S>
+        <Address3S nil="true"/>
+        <Address2B nil="true"/>
+        <Address3B nil="true"/>
+        <MainUsage nil="true">0</MainUsage>
+        <GlbLocNumS nil="true"/>
+        <GlbLocNumB nil="true"/>
+        <CollectDT nil="true"/>
+        <TransprtDT nil="true"/>
+        <TransprtRS nil="true"/>
+        <TaxId12 nil="true"/>
+        <TaxId13 nil="true"/>
+        <ImpExpNo nil="true"/>
+        <ImpExpDate nil="true"/>
+        <BpGSTType nil="true">0</BpGSTType>
+        <BpGSTN nil="true"/>
+        <BpStateCod nil="true"/>
+        <BPStatGSTN nil="true"/>
+        <LocGSTType nil="true">0</LocGSTType>
+        <LocGSTN nil="true"/>
+        <LocStatCod nil="true"/>
+        <LocStaGSTN nil="true"/>
+        <BpCountry nil="true"/>
+        <OrigImpNo nil="true"/>
+        <OrigImpDat nil="true"/>
+        <ExportType>E</ExportType>
+        <PortCode nil="true"/>
+      </row>
+    </INV12>
+  </BO>
+</BOM>
