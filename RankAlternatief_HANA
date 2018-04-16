@@ -1,0 +1,109 @@
+/* Alternative for SQL RANK() function which doesn't exist in HANA and therefore queries in object notation. Works for Ascending and descending RANK() and multiple variables.
+ONLY WORKS FOR VALUES CONSISTING OF NUMBERS INDEPENTLY OF DATATYPE.
+Temp tables, variables and fucntions ('<' and '>') should be alterted to fit the RANK() funtion it replaces and the Primary Keys the table contains.
+The result should be compared tot the original RANK() function to ensure it functions correctly*/
+
+/* Create 3 temp tables and a variable. The temp table are necessary because a subselect returning multiple values is prohibited. */
+
+CREATE TABLE temp_castData(
+		DocEntry INT,
+		LineNum INT,
+		data1 FLOAT,
+		data2 FLOAT,
+		isEmpty1 INT,
+		isEmpty2 INT
+)
+
+CREATE TABLE temp_shiftData(
+		DocEntry INT,
+		LineNum INT,
+		shift1 FLOAT,
+		shift2 FLOAT
+)
+
+CREATE TABLE temp_count(
+		DocEntry INT,
+		LineNum INT,
+		countc BIGINT
+)
+
+CREATE TABLE temp_rank(
+		DocEntry INT,
+		LineNum INT,
+		rankr BIGINT
+)
+
+/* Variable to increase the value of the first variable so that it is primary in the total count */
+
+Declare @Diff BIGINT;
+Set @Diff = 10*(SELECT Count(DocEntry) FROM INV1);
+
+/* Table to cast the data tot a float, this is necessary to count negative values correctly, otherwise -2 is bigger than -1. 
+It also adds a column to distinguish empty fields, after the cast both empty fields and 0 values will become 0 */
+
+INSERT INTO temp_castData (DocEntry, LineNum, data1, data2, isEmpty1, isEmpty2)
+SELECT TOP 10000 
+		DocEntry,
+		LineNum,
+		CAST(BaseRef AS FLOAT),
+		CAST(LineTotal AS FLOAT),
+		(CASE WHEN datalength(BaseRef) = 0 THEN 1 ELSE 0 END),
+		(CASE WHEN datalength(LineNum) = 0 THEN 1 ELSE 0 END)
+FROM INV1
+
+/* This table shifts data. 2 is substracted from negative values this way there is room to give NULL a value of -2 and EMPTY a value  of -1
+Otherwise COUNT() does not distinguish between 0, empty and NULL like RANK() does. The shifting of data has no effect on the COUNT()*/
+
+INSERT INTO temp_shiftData (DocEntry, LineNum, shift1, shift2)
+SELECT	DocEntry,
+		LineNum,
+		(CASE WHEN LEFT(data1, 1) = '-' THEN data1 - 2 WHEN data1 IS NULL THEN -2 WHEN data1 = 0 AND isEmpty1 = 1 THEN -1 ELSE data1 END),
+		(CASE WHEN LEFT(data2, 1) = '-' THEN data2 - 2 WHEN data2 IS NULL THEN -2 WHEN data2 = 0 AND isEmpty2 = 1 THEN -1 ELSE data2 END) 
+FROM temp_castData
+
+/* Table with the Sum of the counts of the individual variables */
+
+INSERT INTO temp_count (DocEntry, LineNum, countc)
+SELECT	DocEntry, 
+		LineNum, 
+		(@Diff*(SELECT COUNT(a.shift1) FROM temp_shiftData a where a.shift1 < b.shift1)) +
+		(SELECT COUNT(a.shift2) FROM temp_shiftData a where a.shift2 < b.shift2) 
+FROM temp_shiftData b
+
+/* Table with the 'ranking' of both variables */
+
+INSERT INTO temp_rank (DocEntry, LineNum, rankr)
+Select DocEntry, LineNum, (Select COUNT(a.countc)+1 FROM temp_count a WHERE a.countc < b.countc) FROM temp_count b
+
+/* Select showing both variables and the alternative RANK() function 'RankAlt'and the real RANK() function Rank0 */
+
+SELECT 	a.DocEntry,
+		a.LineNum,
+		a.BaseRef,
+		d.isEmpty1, 
+		d.data1,
+		e.shift1,
+		a.LineTotal, 
+		d.isEmpty2,
+		d.data2,
+		e.shift2,
+		c.countc,
+		b.rankr AS RankAlt, 
+		RANK() OVER(ORDER BY BaseRef, LineTotal) AS Rank0,
+		(RANK() OVER(ORDER BY BaseRef, LineTotal)) - b.rankr AS RankD
+FROM INV1 a
+
+/* The table with the alternative RANK() function is joined to the primary table to ensure consistancy between the alternative RANK() value and keys 'DocEntry' and 'LineNum' */
+
+JOIN temp_rank b ON a.DocEntry = b.DocEntry AND a.LineNum = b.LineNum
+JOIN temp_count c ON a.DocEntry = c.DocEntry AND a.LineNum = c.LineNum
+JOIN temp_castData d ON a.DocEntry = d.DocEntry AND a.LineNum = d.LineNum
+JOIN temp_shiftData e ON a.DocEntry = e.DocEntry AND a.LineNum = e.LineNum
+
+/* The alternativew RANK() function does not order the result, this can be added with and ORDER BY */
+
+ORDER BY BaseRef, LineTotal
+
+/* Drop the temp tables used for the alternative RANK() function */
+
+DROP table temp_castData, temp_count, temp_rank, temp_shiftData
