@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<message xmlns:ns0="www.boltrics.nl/sendreceipt:v1.00">
+  <class>nl.serac.sboconnector.addons.vanmeeuwen.StaalDuinenGRPO</class>
+  <data>
+    <marshalledobject>
+      <BOM>
+        <BO>
+          <Documents>
+            <row>
+              <OrderNo>290170506</OrderNo>
+              <NumAtCard>I17004010</NumAtCard>
+            </row>
+          </Documents>
+          <Document_Lines>
+            <row>
+              <ItemCode>2032719020001</ItemCode>
+              <Quantity>600</Quantity>
+            </row>
+            <row>
+              <ItemCode>401245900K800</ItemCode>
+              <Quantity>10</Quantity>
+            </row>
+          </Document_Lines>
+        </BO>
+      </BOM>
+    </marshalledobject>
+  </data>
+</message>
+

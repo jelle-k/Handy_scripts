@@ -12,27 +12,25 @@ xmlns:ns0="www.boltrics.nl/sendreceipt:v1.00" >
             <BO>
               <Documents>
                 <row>
-                  <xsl:for-each select="/ns0:Message/ns0:Documents/ns0:Document">
                   <OrderNo>
-                    <xsl:value-of select="./ns0:ExternalDocumentNo"/>
+                    <xsl:value-of select="/ns0:Message/ns0:Documents/ns0:Document/ns0:ExternalDocumentNo"/>
                   </OrderNo>
                   <NumAtCard>
-                    <xsl:value-of select="./ns0:No"/>
+                    <xsl:value-of select="/ns0:Message/ns0:Documents/ns0:Document/ns0:No"/>
                   </NumAtCard>
-                  </xsl:for-each>
                 </row>
               </Documents>
               <Document_Lines>
-                   <xsl:for-each select="/ns0:Message/ns0:Documents/ns0:Document/ns0:DocumentLines/ns0:DocumentLine">
-              <row>
+                <xsl:for-each select="/ns0:Message/ns0:Documents/ns0:Document/ns0:DocumentLines/ns0:DocumentLine">
+                  <row>
                     <ItemCode>
                       <xsl:value-of select="./ns0:ExternalNo" />                     
                     </ItemCode>
                     <Quantity>
                       <xsl:value-of select="./ns0:Quantity" />
                     </Quantity>
-                   </row>                  
-                   </xsl:for-each>
+                  </row>
+                </xsl:for-each>
               </Document_Lines>
             </BO>
           </BOM>
