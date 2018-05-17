@@ -5,9 +5,9 @@ import os
 
 try:
   print("Running...")
-  while True:    
+  while True: 
     dom = ET.parse(os.getcwd()+"/Input.xml")
-    xslt = ET.parse(os.getcwd()+"/INV_ext.xslt")
+    xslt = ET.parse(os.getcwd()+"/SBO_SBO.xslt")
     transform = ET.XSLT(xslt)
     newdom = transform(dom)
     # print(ET.tostring(newdom, pretty_print=True))
@@ -17,6 +17,6 @@ try:
     time.sleep(5)
 except KeyboardInterrupt:
   print("Ended")
-    
+  
 
 

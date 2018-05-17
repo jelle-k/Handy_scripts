@@ -1,10 +1,11 @@
 # Use Windows cmd, just run.
 import lxml.etree as ET
 import time
+import os
 
   
-dom = ET.parse(r"C:\Users\jkakebeeke\Documents\Handy_scripts\XML-XSLT\DIES Object Filter\Input.xml")
-xslt = ET.parse(r"C:\Users\jkakebeeke\Documents\Handy_scripts\XML-XSLT\DIES Object Filter\filterY.xslt")
+dom = ET.parse(os.getcwd()+"/Input.xml")
+xslt = ET.parse(os.getcwd()+"/filterY.xslt")
 transform = ET.XSLT(xslt)
 newdom = transform(dom)
 # print(ET.tostring(newdom, pretty_print=True))

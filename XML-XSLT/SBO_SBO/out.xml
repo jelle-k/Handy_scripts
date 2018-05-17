@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<message xmlns:ns0="www.boltrics.nl/sendreceipt:v1.00">
+  <class>nl.serac.sboconnector.addons.vanmeeuwen.StaalDuinenGRPO</class>
+  <data>
+    <marshalledobject>
+      <BOM>
+        <BO>
+          <OITB>
+            <row/>
+          </OITB>
+          <Document_Lines/>
+        </BO>
+      </BOM>
+    </marshalledobject>
+  </data>
+</message>
+

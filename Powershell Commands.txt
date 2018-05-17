@@ -53,3 +53,11 @@ $o = "MAIN"
 $n = "DIM"
 cd "K:\KLANTEN SBO\Dimensio\Project Havelaar\Intercompany xmls\Returns\DIM-YBA"
 Get-ChildItem -Filter "*$o*" -Recurse | Rename-Item -NewName {$_.name -replace $o, $n }
+
+# Check if a Windows service exists and delete
+$service = Get-WmiObject -Class Win32_Service -Filter "Name='servicename'"
+$service.delete()
+
+# start SAP, SBO, B1 services
+Get-Service -Name "*B1*" | where StartType -eq automatic | Start-Service
+

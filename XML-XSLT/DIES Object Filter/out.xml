@@ -6,34 +6,79 @@
     </AdmInfo>
     <SE_DIES_EXPORT>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
+        <U_se_objecttable>AdmInfo</U_se_objecttable>
+        <U_se_objectfield>Object</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue>20</U_se_newvalue>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
+        <U_se_objecttable>AdmInfo</U_se_objecttable>
+        <U_se_objectfield>Version</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue>1</U_se_newvalue>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
+        <U_se_objecttable>BatchNumbers</U_se_objecttable>
+        <U_se_objectfield>BaseLineNumber</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
+        <U_se_objecttable>BatchNumbers</U_se_objecttable>
+        <U_se_objectfield>BatchNumber</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
+        <U_se_objecttable>BatchNumbers</U_se_objecttable>
+        <U_se_objectfield>Quantity</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>BaseEntry</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>{Document_Lines_DocEntry}</U_se_newvalue>
-        <U_se_queryvalue/>
+        <U_se_newvalue/>
+        <U_se_queryvalue>SELECT DocEntry FROM [TEST-MapackLIVE-TEST].dbo.POR1 WHERE U_se_basedocentry = {Document_Lines_U_se_basedocentry} AND U_se_baselinenum = {Document_Lines_U_se_baselinenum}</U_se_queryvalue>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>BaseLine</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>{Document_Lines_LineNum}</U_se_newvalue>
-        <U_se_queryvalue/>
+        <U_se_newvalue/>
+        <U_se_queryvalue>SELECT LineNum FROM [TEST-MapackLIVE-TEST].dbo.POR1 WHERE U_se_basedocentry = {Document_Lines_U_se_basedocentry} AND U_se_baselinenum = {Document_Lines_U_se_baselinenum}</U_se_queryvalue>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>BaseType</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>17</U_se_newvalue>
+        <U_se_newvalue>22</U_se_newvalue>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>ItemCode</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -42,16 +87,25 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>LineType</U_se_objectfield>
+        <U_se_objectfield>LineTotal</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
         <U_se_newvalue/>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
+        <U_se_objecttable>Document_Lines</U_se_objecttable>
+        <U_se_objectfield>Price</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>Quantity</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -60,97 +114,34 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>TreeType</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>U_se_basedocentry</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>{Document_Lines_DocEntry}</U_se_newvalue>
+        <U_se_newvalue/>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>U_se_basedoctype</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>17</U_se_newvalue>
+        <U_se_newvalue/>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>U_se_baselinenum</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>{Document_Lines_LineNum}</U_se_newvalue>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>UnitPrice</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
         <U_se_newvalue/>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>WarehouseCode</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Document_SpecialLines</U_se_objecttable>
-        <U_se_objectfield>AfterLineNumber</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Document_SpecialLines</U_se_objecttable>
-        <U_se_objectfield>LineNum</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Document_SpecialLines</U_se_objecttable>
-        <U_se_objectfield>LineText</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Document_SpecialLines</U_se_objecttable>
-        <U_se_objectfield>LineType</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Documents</U_se_objecttable>
         <U_se_objectfield>CardCode</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -159,7 +150,7 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Documents</U_se_objecttable>
         <U_se_objectfield>Comments</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -168,7 +159,7 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Documents</U_se_objecttable>
         <U_se_objectfield>DocDate</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -177,7 +168,7 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Documents</U_se_objecttable>
         <U_se_objectfield>DocDueDate</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -186,25 +177,7 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>DocType</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>JournalMemo</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Documents</U_se_objecttable>
         <U_se_objectfield>NumAtCard</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -213,27 +186,9 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>SalesPersonCode</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
+        <U_se_diesobject>50.DIM_ODLN_TO_MAP_OPDN</U_se_diesobject>
         <U_se_objecttable>Documents</U_se_objecttable>
         <U_se_objectfield>TaxDate</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>20.MAP_ORDR_TO_MAP_OPOR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>TransportationCode</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
         <U_se_newvalue/>
