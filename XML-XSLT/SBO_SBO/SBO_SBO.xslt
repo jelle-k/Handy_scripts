@@ -1,42 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" 
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-xmlns:ns0="www.boltrics.nl/sendreceipt:v1.00" >
+<xsl:stylesheet version="2.0"  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <message>
-      <class>nl.serac.sboconnector.addons.vanmeeuwen.StaalDuinenGRPO</class>
+      <class>nl.serac.sboconnector.processors.MarshalledObjectsProcessor</class>
       <data>
         <marshalledobject>
           <BOM>
             <BO>
+              <AdmInfo>
+                <Version>
+                <xsl:value-of select="2" />
+                </Version>
+                <Object>
+                  <xsl:value-of select="52" />
+                </Object>
+              </AdmInfo>
               <OITB>
                 <row>
-                  <xsl:for-each select="BOM/BO/OIBT/row/ItmsGrpCod">
-                  <ItmsGrpCod>
-                    <xsl:value-of select="./U_se_ItmsGrpCod"/>
-                  </ItmsGrpCod>
-                  <OrderNo>
-                    <xsl:value-of select="./ns0:ExternalDocumentNo"/>
-                  </OrderNo>
-                  <NumAtCard>
-                    <xsl:value-of select="./ns0:No"/>
-                  </NumAtCard>
-                  </xsl:for-each>
+                  <U_se_ItmsGrpCod>
+                    <xsl:value-of select="BOM/BO/OITB/row/ItmsGrpCod"/>
+                  </U_se_ItmsGrpCod>
+                  <ItmsGrpNam>
+                    <xsl:value-of select="BOM/BO/OITB/row/ItmsGrpNam"/>
+                  </ItmsGrpNam>
                 </row>
               </OITB>
-              <Document_Lines>
-                   <xsl:for-each select="/ns0:Message/ns0:Documents/ns0:Document/ns0:DocumentLines/ns0:DocumentLine">
-              <row>
-                    <ItemCode>
-                      <xsl:value-of select="./ns0:ExternalNo" />                     
-                    </ItemCode>
-                    <Quantity>
-                      <xsl:value-of select="./ns0:Quantity" />
-                    </Quantity>
-                   </row>                  
-                   </xsl:for-each>
-              </Document_Lines>
             </BO>
           </BOM>
         </marshalledobject>

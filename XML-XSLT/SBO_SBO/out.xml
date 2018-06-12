@@ -1,14 +1,20 @@
 <?xml version="1.0"?>
-<message xmlns:ns0="www.boltrics.nl/sendreceipt:v1.00">
-  <class>nl.serac.sboconnector.addons.vanmeeuwen.StaalDuinenGRPO</class>
+<message>
+  <class>nl.serac.sboconnector.processors.MarshalledObjectsProcessor</class>
   <data>
     <marshalledobject>
       <BOM>
         <BO>
+          <AdmInfo>
+            <Version>2</Version>
+            <Object>52</Object>
+          </AdmInfo>
           <OITB>
-            <row/>
+            <row>
+              <U_se_ItmsGrpCod>238</U_se_ItmsGrpCod>
+              <ItmsGrpNam>Jelle Itemz</ItmsGrpNam>
+            </row>
           </OITB>
-          <Document_Lines/>
         </BO>
       </BOM>
     </marshalledobject>
