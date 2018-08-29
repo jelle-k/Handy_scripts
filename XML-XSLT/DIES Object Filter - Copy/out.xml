@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<message>
+  <class>nl.serac.sboconnector.processors.MarshalledObjectsProcessor</class>
+  <keydefinitions>
+    <keydefinition>
+      <objecttype>52</objecttype>
+      <keyfields>U_se_ItmsGrpCod</keyfields>
+    </keydefinition>
+  </keydefinitions>
+  <data>
+    <marshalledobject>
+      <BOM>
+        <BO>
+          <AdmInfo>
+            <Version>2</Version>
+            <Object>52</Object>
+          </AdmInfo>
+          <ItemGroups>
+            <row>
+              <GroupName>Artikel</GroupName>
+              <U_se_ItmsGrpCod>100</U_se_ItmsGrpCod>
+            </row>
+          </ItemGroups>
+        </BO>
+      </BOM>
+    </marshalledobject>
+  </data>
+</message>
+

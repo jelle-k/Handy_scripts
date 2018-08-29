@@ -48,7 +48,7 @@ $npath | %{
     (gc $_) -replace $o,$r | Set-Content $_.fullname
 }
 
-# Replace text in filename
+# Replace text in name
 $o = "MAIN"
 $n = "DIM"
 cd "K:\KLANTEN SBO\Dimensio\Project Havelaar\Intercompany xmls\Returns\DIM-YBA"
