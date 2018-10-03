@@ -1,7 +1,7 @@
 import datetime
 
 now = datetime.datetime.now()
-today = input("Do you want to know todays' week number? \n> ")
+today = input("Do you want to know todays' week number? (y/n) \n> ")
 
 if today == 'y':
     yr = now.year

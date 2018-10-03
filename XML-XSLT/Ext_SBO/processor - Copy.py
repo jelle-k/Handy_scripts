@@ -3,12 +3,9 @@ import lxml.etree as ET
 import time
 import os
 
-
-
-
-try:  
-  while True:
-    print("Running")
+try:
+  print("Running...")
+  while True: 
     dom = ET.parse(os.getcwd()+"/Input.xml")
     xslt = ET.parse(os.getcwd()+"/Ext_GRPO.xslt")
     transform = ET.XSLT(xslt)
