@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Pip3A4PurchaseOrderRequest xmlns:ns="http://www.onetrail.net" xmlns:ns3="http://pip3a4po.ws.service.onetrail.com/" xmlns:tns="http://www.onetrail.net" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<tns:fromRole>
+		<tns:PartnerRoleDescription>
+			<tns:ContactInformation>
+				<tns:contactName>
+					<tns:FreeFormText lang="EN">Purchase Department</tns:FreeFormText>
+				</tns:contactName>
+				<tns:EmailAddress>Purchase@onetrail.com</tns:EmailAddress>
+				<tns:facsimileNumber>
+					<tns:CommunicationsNumber>+31 30 697 3289</tns:CommunicationsNumber>
+				</tns:facsimileNumber>
+				<tns:telephoneNumber>
+					<tns:CommunicationsNumber>+31 30 697 3288</tns:CommunicationsNumber>
+				</tns:telephoneNumber>
+			</tns:ContactInformation>
+			<tns:GlobalPartnerRoleClassificationCode>Reseller</tns:GlobalPartnerRoleClassificationCode>
+			<tns:PartnerDescription>
+				<tns:BusinessDescription>
+					<tns:GlobalBusinessIdentifier>8714253023366</tns:GlobalBusinessIdentifier>
+					<tns:GlobalSupplyChainCode>Information Technology</tns:GlobalSupplyChainCode>
+					<tns:businessName>
+						<tns:FreeFormText lang="EN">Onetrail B.V. - Test Buyer</tns:FreeFormText>
+					</tns:businessName>
+				</tns:BusinessDescription>
+				<tns:GlobalPartnerClassificationCode>Buyer</tns:GlobalPartnerClassificationCode>
+			</tns:PartnerDescription>
+		</tns:PartnerRoleDescription>
+	</tns:fromRole>
+	<tns:Authentication>
+		<tns:Username/>
+		<tns:Password/>
+	</tns:Authentication>
+	<tns:GlobalDocumentFunctionCode>Request</tns:GlobalDocumentFunctionCode>
+	<tns:PurchaseOrder>
+		<tns:AccountDescription>
+			<tns:accountName>
+				<tns:FreeFormText lang="EN">Onetrail B.V. - Test Buyer</tns:FreeFormText>
+			</tns:accountName>
+			<tns:AccountNumber>8714253023366</tns:AccountNumber>
+			<tns:billTo>
+				<tns:PartnerRoleDescription>
+					<tns:ContactInformation>
+						<tns:contactName>
+							<tns:FreeFormText lang="EN">Finance Department</tns:FreeFormText>
+						</tns:contactName>
+						<tns:EmailAddress>Finance@onetrail.com</tns:EmailAddress>
+						<tns:facsimileNumber>
+							<tns:CommunicationsNumber>+31 30 697 3289</tns:CommunicationsNumber>
+						</tns:facsimileNumber>
+						<tns:telephoneNumber>
+							<tns:CommunicationsNumber>+31 30 697 3288</tns:CommunicationsNumber>
+						</tns:telephoneNumber>
+					</tns:ContactInformation>
+					<tns:GlobalPartnerRoleClassificationCode>Reseller</tns:GlobalPartnerRoleClassificationCode>
+					<tns:PartnerDescription>
+						<tns:BusinessDescription>
+							<tns:GlobalBusinessIdentifier>8714253023397</tns:GlobalBusinessIdentifier>
+							<tns:businessName>
+								<tns:FreeFormText lang="EN">Onetrail B.V. - Test Buyer</tns:FreeFormText>
+							</tns:businessName>
+						</tns:BusinessDescription>
+						<tns:GlobalPartnerClassificationCode>Buyer</tns:GlobalPartnerClassificationCode>
+					</tns:PartnerDescription>
+				</tns:PartnerRoleDescription>
+			</tns:billTo>
+		</tns:AccountDescription>
+		<tns:remarks>
+			<tns:remark context="Sales Remark">Header Text</tns:remark>
+		</tns:remarks>
+		<tns:GlobalPurchaseOrderTypeCode>Standard</tns:GlobalPurchaseOrderTypeCode>
+		<tns:OrderShippingInformation>
+			<tns:GlobalShippingServiceLevelCode>AB - Pre Noon</tns:GlobalShippingServiceLevelCode>
+			<tns:GlobalSpecialFulfillmentRequestCode>Partial</tns:GlobalSpecialFulfillmentRequestCode>
+		</tns:OrderShippingInformation>
+		<tns:ProductLineItem>
+			<tns:remarks>
+				<tns:remark lang="EN">Line Text</tns:remark>
+			</tns:remarks>
+			<tns:GlobalProductUnitOfMeasureCode>EACH</tns:GlobalProductUnitOfMeasureCode>
+			<tns:isDropShip>
+				<tns:AffirmationIndicator>No</tns:AffirmationIndicator>
+			</tns:isDropShip>
+			<tns:LineNumber>1</tns:LineNumber>
+			<tns:OrderQuantity>
+				<tns:requestedQuantity>
+					<tns:ProductQuantity>28</tns:ProductQuantity>
+				</tns:requestedQuantity>
+			</tns:OrderQuantity>
+			<tns:ProductIdentification>
+				<tns:GlobalProductIdentifier>AP8853</tns:GlobalProductIdentifier>
+				<tns:PartnerProductIdentification>
+					<tns:GlobalPartnerClassificationCode>Manufacturer</tns:GlobalPartnerClassificationCode>
+					<tns:ProprietaryProductIdentifier>AP8853</tns:ProprietaryProductIdentifier>
+				</tns:PartnerProductIdentification>
+				<tns:PartnerProductIdentification>
+					<tns:GlobalPartnerClassificationCode>Seller</tns:GlobalPartnerClassificationCode>
+					<tns:ProprietaryProductIdentifier>SellerPN1</tns:ProprietaryProductIdentifier>
+				</tns:PartnerProductIdentification>
+				<tns:PartnerProductIdentification>
+					<tns:GlobalPartnerClassificationCode>Buyer</tns:GlobalPartnerClassificationCode>
+					<tns:ProprietaryProductIdentifier>BuyerPN1</tns:ProprietaryProductIdentifier>
+				</tns:PartnerProductIdentification>
+				<tns:PartnerProductIdentification>
+					<tns:GlobalPartnerClassificationCode>EAN</tns:GlobalPartnerClassificationCode>
+					<tns:ProprietaryProductIdentifier>8712345678921</tns:ProprietaryProductIdentifier>
+				</tns:PartnerProductIdentification>
+			</tns:ProductIdentification>
+			<tns:proprietaryInformation>
+				<tns:FreeFormText lang="EN">Most Wonderful Product there is</tns:FreeFormText>
+			</tns:proprietaryInformation>
+			<tns:requestedEvent>
+				<tns:TransportationEvent>
+					<tns:DateStamp>20150217T120000</tns:DateStamp>
+					<tns:GlobalTransportEventCode>Ship</tns:GlobalTransportEventCode>
+				</tns:TransportationEvent>
+			</tns:requestedEvent>
+			<tns:requestedUnitPrice>
+				<tns:FinancialAmount>
+					<tns:GlobalCurrencyCode>EUR</tns:GlobalCurrencyCode>
+					<tns:MonetaryAmount>316.96</tns:MonetaryAmount>
+				</tns:FinancialAmount>
+			</tns:requestedUnitPrice>
+			<tns:totalLineItemAmount>
+				<tns:FinancialAmount>
+					<tns:GlobalCurrencyCode>EUR</tns:GlobalCurrencyCode>
+					<tns:MonetaryAmount>8874.88</tns:MonetaryAmount>
+				</tns:FinancialAmount>
+			</tns:totalLineItemAmount>
+		</tns:ProductLineItem>
+		<tns:purchaseOrderIdentifier>
+			<tns:ProprietaryDocumentIdentifier>Standard WH 1</tns:ProprietaryDocumentIdentifier>
+		</tns:purchaseOrderIdentifier>
+		<tns:requestedEvent>
+			<tns:TransportationEvent>
+				<tns:DateStamp>20150217T120000</tns:DateStamp>
+				<tns:GlobalTransportEventCode>Ship</tns:GlobalTransportEventCode>
+			</tns:TransportationEvent>
+		</tns:requestedEvent>
+		<tns:shipTo>
+			<tns:PartnerDescription>
+				<tns:BusinessDescription>
+					<tns:GlobalBusinessIdentifier>8714253023380</tns:GlobalBusinessIdentifier>
+				</tns:BusinessDescription>
+				<tns:GlobalPartnerClassificationCode>Buyer</tns:GlobalPartnerClassificationCode>
+				<tns:ContactInformation>
+					<tns:contactName>
+						<tns:FreeFormText/>
+					</tns:contactName>
+					<tns:EmailAddress/>
+					<tns:telephoneNumber>
+						<tns:CommunicationsNumber/>
+					</tns:telephoneNumber>
+				</tns:ContactInformation>
+			</tns:PartnerDescription>
+		</tns:shipTo>
+		<tns:totalAmount>
+			<tns:FinancialAmount>
+				<tns:GlobalCurrencyCode>EUR</tns:GlobalCurrencyCode>
+				<tns:MonetaryAmount>8874.88</tns:MonetaryAmount>
+			</tns:FinancialAmount>
+		</tns:totalAmount>
+	</tns:PurchaseOrder>
+	<tns:thisDocumentGenerationDateTime>
+		<tns:DateTimeStamp>20150216T120000</tns:DateTimeStamp>
+	</tns:thisDocumentGenerationDateTime>
+	<tns:thisDocumentIdentifier>
+		<tns:ProprietaryDocumentIdentifier>ThisDocUniqueID-Counter993jfhsdf93n</tns:ProprietaryDocumentIdentifier>
+	</tns:thisDocumentIdentifier>
+	<tns:toRole>
+		<tns:PartnerRoleDescription>
+			<tns:ContactInformation>
+				<tns:contactName>
+					<tns:FreeFormText lang="EN">Sales Department </tns:FreeFormText>
+				</tns:contactName>
+				<tns:EmailAddress>sales@onetrail.com</tns:EmailAddress>
+				<tns:facsimileNumber>
+					<tns:CommunicationsNumber>+31 30 697 3289</tns:CommunicationsNumber>
+				</tns:facsimileNumber>
+				<tns:telephoneNumber>
+					<tns:CommunicationsNumber>+31 30 697 3288</tns:CommunicationsNumber>
+				</tns:telephoneNumber>
+			</tns:ContactInformation>
+			<tns:GlobalPartnerRoleClassificationCode>Distributor</tns:GlobalPartnerRoleClassificationCode>
+			<tns:PartnerDescription>
+				<tns:BusinessDescription>
+					<tns:GlobalBusinessIdentifier>8714253023236</tns:GlobalBusinessIdentifier>
+					<tns:GlobalSupplyChainCode>Information Technology</tns:GlobalSupplyChainCode>
+					<tns:businessName>
+						<tns:FreeFormText lang="EN">Onetrail B.V. - Test Seller</tns:FreeFormText>
+					</tns:businessName>
+				</tns:BusinessDescription>
+				<tns:GlobalPartnerClassificationCode>Seller</tns:GlobalPartnerClassificationCode>
+			</tns:PartnerDescription>
+		</tns:PartnerRoleDescription>
+	</tns:toRole>
+</tns:Pip3A4PurchaseOrderRequest>

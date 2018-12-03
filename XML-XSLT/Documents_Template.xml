@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOM>
+	<BO>
+		<AdmInfo>
+			<Object>22</Object>
+			<Version>2</Version>
+		</AdmInfo>
+		<Documents>
+			<row>
+				<!-- Key that uniquely identifies the document. -->
+				<DocEntry>56853</DocEntry>
+				<!-- The number of the document. -->
+				<DocNum>56650</DocNum>
+				<!-- Document posting date. -->
+				<DocDate>20181127</DocDate>
+				<!-- Document due date (for example, Delivery Date in sales orders, Value Date in invoices) -->
+				<DocDueDate>20181127</DocDueDate>
+				<!-- The customer or vendor code. -->
+				<CardCode>STEC005</CardCode>
+				<!-- The customer or vendor name. -->
+				<CardName>Onetrail Test Seller</CardName>
+				<!-- The total amount in the document. -->
+				<DocTotal>858.190000</DocTotal>
+				<!-- Currency used in the document. -->
+				<DocCurrency>GBP</DocCurrency>
+				<!-- Comments for the document. -->
+				<Comments>Based on Sales Orders 2113065.</Comments>
+				<!-- Federal tax ID of the business partner. -->
+				<FederalTaxID>GB385524235</FederalTaxID>
+				<!-- Specifies whether or not only some of the items can be supplied -->
+				<PartialSupply>complete</PartialSupply>
+				<!-- Shipping type (such as, Courier or Air Cargo). -->
+				<TransportationCode>d1</TransportationCode>
+			</row>
+		</Documents>
+		<Document_Lines>
+			<row>
+				<!-- Current row number in the list. -->
+				<LineNum>0</LineNum>
+				<!-- Item code in the inventory item in SAP -->
+				<ItemCode>MD101B/A</ItemCode>
+				<!-- Item name/description -->
+				<ItemDescription>EOL MacBook Pro 13-inch dual-core i5 2.5GHz/4GB/500GB/HD Graphics 4000/SD</ItemDescription>
+				<!-- Quantity of items in the current business transaction. -->
+				<Quantity>1.000000</Quantity>
+				<!-- The row delivery date -->
+				<ShipDate>20181127</ShipDate>
+				<!-- Item price before taxation -->
+				<Price>632.490000</Price>
+				<!-- Price currency used in the document row. -->
+				<Currency>GBP</Currency>
+				<!-- Warehouse code where the item is stored. -->
+				<WarehouseCode>DRP</WarehouseCode>
+				<!-- Bar Code (EAN code) for this item. -->
+				<BarCode>885909582785</BarCode>
+				<!-- Total amount (not including tax) per row. -->
+				<LineTotal>715.160000</LineTotal>
+			</row>
+		</Document_Lines>
+		<AddressExtension>
+			<row>
+				<!-- Street of the Ship To address. -->
+				<ShipToStreet>Rijnzathe 36</ShipToStreet>
+				<!-- City of the Ship To address. -->
+				<ShipToCity>De Meern</ShipToCity>
+				<!-- Zip code of the Ship To address. -->
+				<ShipToZipCode>3454 PV</ShipToZipCode>
+				<!-- Country of the Ship To address. -->
+				<ShipToCountry>NL</ShipToCountry>
+			</row>
+		</AddressExtension>
+	</BO>
+</BOM>

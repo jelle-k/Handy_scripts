@@ -6,97 +6,16 @@
     </AdmInfo>
     <SE_DIES_EXPORT>
       <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToAddressType</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT AddrTypeS  FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToBlock</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT BlockS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToBuilding</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT BuildingS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToCity</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT CityS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToCountry</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT CountryS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToState</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT StateS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToStreet</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT StreetS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToStreetNo</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT StreetNoS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>AddressExtension</U_se_objecttable>
-        <U_se_objectfield>ShipToZipCode</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT ZipCodeS FROM RDR12 WHERE DocEntry = (SELECT TOP 1 T0.BaseEntry FROM POR1 T0 WHERE DocEntry = {Document_Lines_DocEntry} AND LineNum = {Document_Lines_LineNum})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
         <U_se_objecttable>AdmInfo</U_se_objecttable>
         <U_se_objectfield>Object</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>17</U_se_newvalue>
+        <U_se_newvalue>13</U_se_newvalue>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
         <U_se_objecttable>AdmInfo</U_se_objecttable>
         <U_se_objectfield>Version</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
@@ -105,35 +24,116 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Document_Lines</U_se_objecttable>
+        <U_se_objectfield>BaseEntry</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue>{Document_Lines_DocEntry}</U_se_newvalue>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Document_Lines</U_se_objecttable>
+        <U_se_objectfield>BaseLine</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue>{Document_Lines_LineNum}</U_se_newvalue>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Document_Lines</U_se_objecttable>
+        <U_se_objectfield>BaseType</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue>15</U_se_newvalue>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
         <U_se_objecttable>Document_Lines</U_se_objecttable>
         <U_se_objectfield>ItemCode</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
         <U_se_newvalue/>
-        <U_se_queryvalue>SELECT T1.ItemCode FROM KMtestBE.dbo.OITM T0 INNER JOIN KMtestNL.dbo.OITM T1 ON T0.U_cscode = T1.U_cscode WHERE T0.ItemCode ='{Document_lines_ItemCode}'</U_se_queryvalue>
+        <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>LineNum</U_se_objectfield>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Documents</U_se_objecttable>
+        <U_se_objectfield>CardCode</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue>{Documents_CardCode}</U_se_newvalue>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Documents</U_se_objecttable>
+        <U_se_objectfield>Comments</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
         <U_se_newvalue/>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>LineTotal</U_se_objectfield>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Documents</U_se_objecttable>
+        <U_se_objectfield>DocDate</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
         <U_se_newvalue/>
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Documents</U_se_objecttable>
+        <U_se_objectfield>JournalMemo</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Documents</U_se_objecttable>
+        <U_se_objectfield>NumAtCard</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue>{Documents_NumAtCard}</U_se_newvalue>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>Documents</U_se_objecttable>
+        <U_se_objectfield>TaxDate</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>SerialNumbers</U_se_objecttable>
+        <U_se_objectfield>BaseLineNumber</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>SerialNumbers</U_se_objecttable>
+        <U_se_objectfield>ManufacturerSerialNumber</U_se_objectfield>
+        <U_se_exclude>N</U_se_exclude>
+        <U_se_addnotexist>Y</U_se_addnotexist>
+        <U_se_newvalue/>
+        <U_se_queryvalue/>
+      </row>
+      <row>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>SerialNumbers</U_se_objecttable>
         <U_se_objectfield>Quantity</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
@@ -141,291 +141,12 @@
         <U_se_queryvalue/>
       </row>
       <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>TreeType</U_se_objectfield>
+        <U_se_diesobject>2_ODLN_TO_OINV</U_se_diesobject>
+        <U_se_objecttable>SerialNumbers</U_se_objecttable>
+        <U_se_objectfield>SystemSerialNumber</U_se_objectfield>
         <U_se_exclude>N</U_se_exclude>
         <U_se_addnotexist>Y</U_se_addnotexist>
         <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>U_KenMnr</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>U_se_BaseDocEntry</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>{Documents_DocEntry}</U_se_newvalue>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>U_se_BaseDocLine</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>{Document_Lines_LineNum}</U_se_newvalue>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Document_Lines</U_se_objecttable>
-        <U_se_objectfield>U_se_BaseDocType</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>22</U_se_newvalue>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>CardCode</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>C03043202T</U_se_newvalue>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>Comments</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT T0.Comments FROM ORDR T0 WHERE T0.[DocEntry] = (SELECT TOP 1 V0.BaseEntry FROM POR1 V0 WHERE V0.DocEntry = {Documents_DocEntry})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>DocDueDate</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>DocType</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>NumAtCard</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue>SELECT T0.NumAtCard FROM ORDR T0 WHERE T0.[DocEntry] = (SELECT TOP 1 V0.BaseEntry FROM POR1 V0 WHERE V0.DocEntry = {Documents_DocEntry})</U_se_queryvalue>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>ShipToCode</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>Intercompany</U_se_newvalue>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_AnalCert</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_CoA_ADDR</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_CommConf</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_DLADADDR</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_DLADCITY</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_DLADLAND</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_DLADNAME</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_DLADZPCD</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_DLVLINES</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_DOCDLDAT</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_faktuur</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_FRTLINES</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_IC_Ship</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_INVLINES</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_KMPAYMCD</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_LBLLINES</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_Order</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>{Documents_DocNum}</U_se_newvalue>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_ORDLINES</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_PCKLINES</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_PORLINES</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue/>
-        <U_se_queryvalue/>
-      </row>
-      <row>
-        <U_se_diesobject>OPOR_TO_TNL_ORDR</U_se_diesobject>
-        <U_se_objecttable>Documents</U_se_objecttable>
-        <U_se_objectfield>U_Status</U_se_objectfield>
-        <U_se_exclude>N</U_se_exclude>
-        <U_se_addnotexist>Y</U_se_addnotexist>
-        <U_se_newvalue>01</U_se_newvalue>
         <U_se_queryvalue/>
       </row>
     </SE_DIES_EXPORT>

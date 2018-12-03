@@ -66,3 +66,6 @@ ForEach ($serv in (Get-ChildItem 'C:\Program Files\Serac\*\bin\InstallService.ba
 # start SAP, SBO, B1 services
 Get-Service -Name "*B1*" | where StartType -eq automatic | Start-Service
 
+
+# Find String in file
+Select-String -Path "*.xml" -Pattern "the the"

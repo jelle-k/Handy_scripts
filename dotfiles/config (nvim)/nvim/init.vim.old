@@ -1,0 +1,56 @@
+" Specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.local/share/nvim/plugged')
+
+" Make sure you use single quotes
+
+Plug 'Valloric/YouCompleteMe' 
+Plug 'nvie/vim-flake8'
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'dracula/vim',{'as':'dracula'}
+Plug 'danilo-augusto/vim-afterglow',{'as':'afterglow'}
+Plug 'dikiaap/minimalist'
+
+" Initialize plugin system
+call plug#end()
+
+filetype plugin indent on	" required
+
+syntax enable
+set tabstop=2                   " number of visual spaces in tab
+set softtabstop=4               " numbers of spaces in tab when e
+set expandtab                   " tabs are spaces
+set number                      " show line numbers
+set showcmd                     " show command in bottom bar
+set cursorline                  " highlight current line
+filetype indent on              " load filetype-specific indent files
+set wildmenu                    " visual autocomplete for command menu
+set showmatch                   " hightlight matching [{()}]
+set incsearch                   " search as characters are entered
+set hlsearch                    " highlight matches
+set autochdir                   " Automatically change the current directory
+set laststatus=2								" window will always have a status line
+
+
+" jk is escape
+inoremap jk <esc>
+
+" CtrlP settings
+let g:ctrlp_match_window = 'bottom,order:ttb'
+let g:ctrlp_switch_buffer = 0
+let g:ctrlp_working_path_mode = 0
+
+" Airline settings
+let g:airline_powerline_fonts = 1
+let g:airline_theme='minimalist'
+
+" YCM settings
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
+set t_Co=256                    " terminal colour
+
+color minimalist

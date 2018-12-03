@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<cac:Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cac:IssueDate>20180409</cac:IssueDate>
+  <cbc:InvoiceTypeCode listID="ISO 4217 Alpha" listAgencyID="6">13</cbc:InvoiceTypeCode>
+  <cbc:OrderReference>
+    <cbc:ID>TEST MP 06-04-2018/6</cbc:ID>
+  </cbc:OrderReference>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="GLN" schemeAgencyID="13">NLTESTNumber</cbc:EndpointID>
+      <cac:PartyName>
+        <cbc:Name>Marit Polman</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>test</cbc:StreetName>
+        <cbc:CityName>test</cbc:CityName>
+        <cbc:PostalZone>1234</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1" listAgencyID="6">IE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Delivery>
+        <cac:DeliveryLocation>
+          <cac:Address>
+            <cbc:StreetName>test</cbc:StreetName>
+            <cbc:CityName>test</cbc:CityName>
+            <cbc:PostalZone>1234</cbc:PostalZone>
+            <cac:Country>
+              <cbc:IdentificationCode>IE</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:Address>
+        </cac:DeliveryLocation>
+      </cac:Delivery>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">40.490000</cbc:TaxAmount>
+  </cac:TaxTotal>
+  <cac:InvoiceLine>
+    <cac:Item>
+      <cbc:Name/>
+      <cac:SellersItemIdentification>
+        <cbc:ID>BO1297826</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+  </cac:InvoiceLine>
+</cac:Invoice>
+
