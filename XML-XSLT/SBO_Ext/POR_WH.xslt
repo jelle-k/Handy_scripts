@@ -108,9 +108,7 @@
 					<tns:GlobalShippingServiceLevelCode>
 						<xsl:value-of select='translate(BOM/BO/Documents/row/TrnspCode, "abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")' />
 					</tns:GlobalShippingServiceLevelCode>
-					<tns:GlobalSpecialFulfillmentRequestCode>
-						<xsl:value-of select='BOM/BO/Documents/row/PartialSupply' />
-					</tns:GlobalSpecialFulfillmentRequestCode>
+					<tns:GlobalSpecialFulfillmentRequestCode>Complete</tns:GlobalSpecialFulfillmentRequestCode>
 				</tns:OrderShippingInformation>
 				<!-- Document Rows -->
 				<xsl:for-each select="/BOM/BO/Document_Lines/row">

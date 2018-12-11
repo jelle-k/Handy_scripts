@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<message>
+  <class>nl.serac.sboconnector.processors.MarshalledObjectsProcessor</class>
+  <data>
+    <marshalledobject>
+      <BOM>
+        <BO>
+          <AdmInfo>
+            <Version>2</Version>
+            <Object>69</Object>
+          </AdmInfo>
+          <LandedCost>
+            <PostingDate>20181108</PostingDate>
+            <DueDate>20181108</DueDate>
+            <VendorCode>S26011515T</VendorCode>
+            <Remarks>based on goods receipt po 722932</Remarks>
+            <DocumentCurrency>EUR</DocumentCurrency>
+            <Total/>
+            <TotalFreightCharges/>
+            <LandedCost_ItemLines>
+              <LandedCost_ItemLine>
+                <LineNumber>0</LineNumber>
+                <BaseDocumentType>asGoodsReceiptPO</BaseDocumentType>
+                <BaseEntry>22836</BaseEntry>
+              </LandedCost_ItemLine>
+            </LandedCost_ItemLines>
+            <LandedCost_CostLines>
+              <LandedCost_CostLine>
+                <LandedCostCode>02</LandedCostCode>
+                <Amount>10.000000</Amount>
+              </LandedCost_CostLine>
+            </LandedCost_CostLines>
+          </LandedCost>
+        </BO>
+      </BOM>
+    </marshalledobject>
+  </data>
+</message>
+

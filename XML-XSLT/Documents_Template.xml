@@ -2,6 +2,7 @@
 <BOM>
 	<BO>
 		<AdmInfo>
+			<!-- Document type. -->
 			<Object>22</Object>
 			<Version>2</Version>
 		</AdmInfo>

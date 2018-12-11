@@ -71,7 +71,7 @@
     <tns:GlobalPurchaseOrderTypeCode>Standard</tns:GlobalPurchaseOrderTypeCode>
     <tns:OrderShippingInformation>
       <tns:GlobalShippingServiceLevelCode>D1</tns:GlobalShippingServiceLevelCode>
-      <tns:GlobalSpecialFulfillmentRequestCode>complete</tns:GlobalSpecialFulfillmentRequestCode>
+      <tns:GlobalSpecialFulfillmentRequestCode>Complete</tns:GlobalSpecialFulfillmentRequestCode>
     </tns:OrderShippingInformation>
     <tns:ProductLineItem>
       <tns:remarks>

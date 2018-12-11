@@ -68,4 +68,12 @@ Get-Service -Name "*B1*" | where StartType -eq automatic | Start-Service
 
 
 # Find String in file
-Select-String -Path "*.xml" -Pattern "the the"
+Select-String -Path "*.xml" -Pattern "the the" | format-list filename
+
+# check if Port it open 
+Test-NetConnection -ComputerName DB01TEST -Port 2933 -InformationLevel "Detailed"
+
+# Check event log remote computer
+Get-EventLog -ComputerName DB01TEST -LogName SwitchExtraTEST -Newest 10 | Format-List -Property *
+$eventError = Get-EventLog -ComputerName DB01TEST -LogName SwitchExtraTEST -Newest 5 -EntryType Error | Format-List -Property  TimeGenerated, Message
+$eventAll = Get-EventLog -ComputerName DB01TEST -LogName SwitchExtraTEST -Newest 5 | Format-List -Property  TimeGenerated, Message

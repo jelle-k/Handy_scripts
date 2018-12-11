@@ -14,7 +14,7 @@
                <tns:CommunicationsNumber/>
             </tns:facsimileNumber>
             <tns:telephoneNumber>
-               <tns:CommunicationsNumber>1850668888</tns:CommunicationsNumber>
+               <tns:CommunicationsNumber>00441850668888</tns:CommunicationsNumber>
             </tns:telephoneNumber>
          </tns:ContactInformation>
          <tns:GlobalPartnerRoleClassificationCode>Reseller</tns:GlobalPartnerRoleClassificationCode>
@@ -52,7 +52,7 @@
                      <tns:CommunicationsNumber/>
                   </tns:facsimileNumber>
                   <tns:telephoneNumber>
-                     <tns:CommunicationsNumber>1850668888</tns:CommunicationsNumber>
+                     <tns:CommunicationsNumber>00441850668888</tns:CommunicationsNumber>
                   </tns:telephoneNumber>
                </tns:ContactInformation>
                <tns:GlobalPartnerRoleClassificationCode>Reseller</tns:GlobalPartnerRoleClassificationCode>
@@ -69,23 +69,23 @@
          </tns:billTo>
       </tns:AccountDescription>
       <tns:remarks>
-         <tns:remark context="Sales Remark" lang="EN">Based on Sales Orders 2113065.</tns:remark>
+         <tns:remark context="Sales Remark" lang="EN">Based on Sales Orders 2113066.</tns:remark>
       </tns:remarks>
       <tns:DocumentReference>
-         <tns:DateTimeStamp>20181127T000000</tns:DateTimeStamp>
+         <tns:DateTimeStamp>20181130T000000</tns:DateTimeStamp>
          <tns:GlobalDocumentReferenceTypeCode>Work Order</tns:GlobalDocumentReferenceTypeCode>
-         <tns:ProprietaryDocumentIdentifier>56650</tns:ProprietaryDocumentIdentifier>
+         <tns:ProprietaryDocumentIdentifier>56653</tns:ProprietaryDocumentIdentifier>
       </tns:DocumentReference>
       <tns:GlobalPurchaseOrderTypeCode>Standard</tns:GlobalPurchaseOrderTypeCode>
       <tns:OrderShippingInformation>
-         <tns:GlobalShippingServiceLevelCode>d1</tns:GlobalShippingServiceLevelCode>
-         <tns:GlobalSpecialFulfillmentRequestCode>complete</tns:GlobalSpecialFulfillmentRequestCode>
+         <tns:GlobalShippingServiceLevelCode>D1</tns:GlobalShippingServiceLevelCode>
+         <tns:GlobalSpecialFulfillmentRequestCode>Complete</tns:GlobalSpecialFulfillmentRequestCode>
       </tns:OrderShippingInformation>
       <tns:ProductLineItem>
          <tns:remarks>
             <tns:remark context="Linereference">EOL MacBook Pro 13-inch dual-core i5 2.5GHz/4GB/500GB/HD Graphics 4000/SD</tns:remark>
          </tns:remarks>
-         <tns:GlobalProductUnitOfMeasureCode>Each</tns:GlobalProductUnitOfMeasureCode>
+         <tns:GlobalProductUnitOfMeasureCode>EACH</tns:GlobalProductUnitOfMeasureCode>
          <tns:isDropShip>
             <tns:AffirmationIndicator>Yes</tns:AffirmationIndicator>
          </tns:isDropShip>
@@ -115,7 +115,7 @@
          </tns:proprietaryInformation>
          <tns:requestedEvent>
             <tns:TransportationEvent>
-               <tns:DateStamp>20181127T000000</tns:DateStamp>
+               <tns:DateStamp>20181130T000000</tns:DateStamp>
                <tns:GlobalTransportEventCode>Ship</tns:GlobalTransportEventCode>
             </tns:TransportationEvent>
          </tns:requestedEvent>
@@ -128,16 +128,67 @@
          <tns:totalLineItemAmount>
             <tns:FinancialAmount>
                <tns:GlobalCurrencyCode>GBP</tns:GlobalCurrencyCode>
-               <tns:MonetaryAmount>715.16</tns:MonetaryAmount>
+               <tns:MonetaryAmount>632.49</tns:MonetaryAmount>
+            </tns:FinancialAmount>
+         </tns:totalLineItemAmount>
+      </tns:ProductLineItem>
+      <tns:ProductLineItem>
+         <tns:remarks>
+            <tns:remark context="Linereference">iPhone 6s 128GB Gold</tns:remark>
+         </tns:remarks>
+         <tns:GlobalProductUnitOfMeasureCode>EACH</tns:GlobalProductUnitOfMeasureCode>
+         <tns:isDropShip>
+            <tns:AffirmationIndicator>Yes</tns:AffirmationIndicator>
+         </tns:isDropShip>
+         <tns:LineNumber>1</tns:LineNumber>
+         <tns:OrderQuantity>
+            <tns:requestedQuantity>
+               <tns:ProductQuantity>1</tns:ProductQuantity>
+            </tns:requestedQuantity>
+         </tns:OrderQuantity>
+         <tns:ProductIdentification>
+            <tns:GlobalProductIdentifier>MKQV2B/A</tns:GlobalProductIdentifier>
+            <tns:PartnerProductIdentification>
+               <tns:GlobalPartnerClassificationCode>Seller</tns:GlobalPartnerClassificationCode>
+               <tns:ProprietaryProductIdentifier>3537157</tns:ProprietaryProductIdentifier>
+            </tns:PartnerProductIdentification>
+            <tns:PartnerProductIdentification>
+               <tns:GlobalPartnerClassificationCode>Buyer</tns:GlobalPartnerClassificationCode>
+               <tns:ProprietaryProductIdentifier>MKQV2B/A</tns:ProprietaryProductIdentifier>
+            </tns:PartnerProductIdentification>
+            <tns:PartnerProductIdentification>
+               <tns:GlobalPartnerClassificationCode>EAN</tns:GlobalPartnerClassificationCode>
+               <tns:ProprietaryProductIdentifier>888462564847</tns:ProprietaryProductIdentifier>
+            </tns:PartnerProductIdentification>
+         </tns:ProductIdentification>
+         <tns:proprietaryInformation>
+            <tns:FreeFormText lang="EN">iPhone 6s 128GB Gold</tns:FreeFormText>
+         </tns:proprietaryInformation>
+         <tns:requestedEvent>
+            <tns:TransportationEvent>
+               <tns:DateStamp>20181130T000000</tns:DateStamp>
+               <tns:GlobalTransportEventCode>Ship</tns:GlobalTransportEventCode>
+            </tns:TransportationEvent>
+         </tns:requestedEvent>
+         <tns:requestedUnitPrice>
+            <tns:FinancialAmount>
+               <tns:GlobalCurrencyCode>GBP</tns:GlobalCurrencyCode>
+               <tns:MonetaryAmount>432.34</tns:MonetaryAmount>
+            </tns:FinancialAmount>
+         </tns:requestedUnitPrice>
+         <tns:totalLineItemAmount>
+            <tns:FinancialAmount>
+               <tns:GlobalCurrencyCode>GBP</tns:GlobalCurrencyCode>
+               <tns:MonetaryAmount>432.34</tns:MonetaryAmount>
             </tns:FinancialAmount>
          </tns:totalLineItemAmount>
       </tns:ProductLineItem>
       <tns:purchaseOrderIdentifier>
-         <tns:ProprietaryDocumentIdentifier>56650</tns:ProprietaryDocumentIdentifier>
+         <tns:ProprietaryDocumentIdentifier>56653</tns:ProprietaryDocumentIdentifier>
       </tns:purchaseOrderIdentifier>
       <tns:requestedEvent>
          <tns:TransportationEvent>
-            <tns:DateStamp>20181127T000000</tns:DateStamp>
+            <tns:DateStamp>20181130T000000</tns:DateStamp>
             <tns:GlobalTransportEventCode>Ship</tns:GlobalTransportEventCode>
          </tns:TransportationEvent>
       </tns:requestedEvent>
@@ -145,7 +196,7 @@
          <tns:PartnerDescription>
             <tns:BusinessDescription>
                <tns:businessName>
-                  <tns:FreeFormText lang="EN">Maz Alam</tns:FreeFormText>
+                  <tns:FreeFormText lang="EN">Freddy apple store</tns:FreeFormText>
                </tns:businessName>
             </tns:BusinessDescription>
             <tns:GlobalPartnerClassificationCode>Buyer</tns:GlobalPartnerClassificationCode>
@@ -158,7 +209,7 @@
                   <tns:CommunicationsNumber/>
                </tns:facsimileNumber>
                <tns:telephoneNumber>
-                  <tns:CommunicationsNumber>1850668888</tns:CommunicationsNumber>
+                  <tns:CommunicationsNumber>00441850668888</tns:CommunicationsNumber>
                </tns:telephoneNumber>
             </tns:ContactInformation>
          </tns:PartnerDescription>
@@ -178,10 +229,10 @@
       </tns:shipTo>
    </tns:PurchaseOrder>
    <tns:thisDocumentGenerationDateTime>
-      <tns:DateTimeStamp>20181127T000000</tns:DateTimeStamp>
+      <tns:DateTimeStamp>20181130T000000</tns:DateTimeStamp>
    </tns:thisDocumentGenerationDateTime>
    <tns:thisDocumentIdentifier>
-      <tns:ProprietaryDocumentIdentifier>56650</tns:ProprietaryDocumentIdentifier>
+      <tns:ProprietaryDocumentIdentifier>56653</tns:ProprietaryDocumentIdentifier>
    </tns:thisDocumentIdentifier>
    <tns:toRole>
       <tns:PartnerRoleDescription>

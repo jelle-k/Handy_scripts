@@ -1,0 +1,37 @@
+<BOM>
+	<BO>
+		<AdmInfo>
+			<Version>2</Version>
+			<Object>69</Object>
+		</AdmInfo>
+		<Documents>
+			<row>
+				<DocNum>722932</DocNum>
+				<DocDate>20181108</DocDate>
+				<NumAtCard>Test Jelle 8-11-1</NumAtCard>
+				<DocCurrency>EUR</DocCurrency>
+				<Comments>Test Jelle 8-11-1 Based on Sales Orders 162821.</Comments>
+				<JournalMemo>Goederenontvangst bestelling - S26011515T</JournalMemo>
+				<TaxDate>20181108</TaxDate>
+				<CardCode>S26011515T</CardCode>
+				<Remarks>based on goods receipt po 722932</Remarks>
+			</row>
+		</Documents>
+		<Document_Lines>
+			<row>
+				<ItemCode>20064676</ItemCode>
+				<Price>70.000000</Price>
+				<BaseLine>0</BaseLine>
+				<BaseEntry>22836</BaseEntry>
+				<BaseType>20</BaseType>
+			</row>
+			<row>
+				<ItemCode>99999999</ItemCode>
+				<Price>10.000000</Price>
+				<BaseLine>1</BaseLine>
+				<BaseEntry>22836</BaseEntry>
+				<BaseType>20</BaseType>
+			</row>
+		</Document_Lines>
+	</BO>
+</BOM>

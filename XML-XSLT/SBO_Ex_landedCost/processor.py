@@ -4,8 +4,8 @@ import time
 import os
 
   
-dom = ET.parse(os.getcwd()+"/DIES_EXPORT_INB_IPF_TO_SSW.xml")
-xslt = ET.parse(os.getcwd()+"/filterY.xslt")
+dom = ET.parse(os.getcwd()+"/oPurchaseDeliveryNotes_22837.xml")
+xslt = ET.parse(os.getcwd()+"/oLandedCosts_3868.xslt")
 transform = ET.XSLT(xslt)
 newdom = transform(dom)
 # print(ET.tostring(newdom, pretty_print=True))

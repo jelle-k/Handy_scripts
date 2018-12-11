@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<dbproperties>
+		<dbprop name="Debug" value="true" />
+		<dbprop name="PrintStacktraces" value="true" />
+		<dbprop name="HistoryFolder" value="D:\XMLServer\history\" />
+		<dbprop name="ErrorFolder" value="D:\XMLServer\error\" />
+		<dbprop name="SendErrorMailTo" value="servicecentrum@serac.nl" />
+	</dbproperties>
+	<mapping>
+		<property name="SBOConnector_BE">
+			<in commType="port" value="12229" />
+			<out commType="server" value="127.0.0.1:2229" />
+		</property>
+		<!-- GR PO to Landed Cost converter -->
+		<property name="SBOConnector_PDN_to_IPF" dbLogging="false" enableHistory="false">
+			<in commType="port" value="12227" inputEncoding="UTF-8" debugXml="false" />
+			<out commType="folder" value="D:\XMLServer\landedcost\Archive\" >			
+				<mapper valType="xsl" value="D:\XMLServer\landedcost\PDN_to_IPF.xslt"/>
+			</out>
+			<out commType="folder" value="D:\XMLServer\landedcost\Processed\" />
+			<out commType="server" value="127.0.0.1:2229"/>
+		</property>
+	</mapping>
+</properties>
