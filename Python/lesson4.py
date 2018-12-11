@@ -6,3 +6,5 @@ doug = pet()
 doug.number_of_legs = 4
 
 print("doug has %s legs") % doug.number_of_legs
+
+print('Hello world')
